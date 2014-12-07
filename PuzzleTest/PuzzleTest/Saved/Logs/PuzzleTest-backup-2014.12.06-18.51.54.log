@@ -1,0 +1,272 @@
+﻿Log file open, 12/06/14 18:42:57
+LogInit:Display: Running engine without a game
+LogInit:Display: Loading recent project file: ../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/PuzzleTest.uproject
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.06-23.42.57:284][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.06-23.42.57:343][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.06-23.42.57:367][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.06-23.42.57:375][  0]LogInit: Object subsystem initialized
+[2014.12.06-23.42.57:377][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.06-23.42.57:377][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.06-23.42.57:377][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2014.12.06-23.42.57:377][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.06-23.42.57:377][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.06-23.42.57:377][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.06-23.42.57:377][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.06-23.42.57:381][  0]LogInit: Computer: ARCHER
+[2014.12.06-23.42.57:381][  0]LogInit: User: Esther
+[2014.12.06-23.42.57:381][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.06-23.42.57:381][  0]LogInit: High frequency timer resolution =3.410225 MHz
+[2014.12.06-23.42.57:381][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2014.12.06-23.42.57:381][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.06-23.42.57:381][  0]LogMemory: Process Physical Memory: 49.13 MB used, 49.13 MB peak
+[2014.12.06-23.42.57:381][  0]LogMemory: Process Virtual Memory: 25.13 MB used, 25.13 MB peak
+[2014.12.06-23.42.57:381][  0]LogMemory: Physical Memory: 3211.58 MB used, 16330.93 MB total
+[2014.12.06-23.42.57:381][  0]LogMemory: Virtual Memory: 275.15 MB used, 134217728.00 MB total
+[2014.12.06-23.42.57:398][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2014.12.06-23.42.57:398][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.12.06-23.42.57:399][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.06-23.42.57:399][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.06-23.42.57:399][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.06-23.42.57:401][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.06-23.42.57:410][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.06-23.42.57:466][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.06-23.42.57:586][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.06-23.43.02:512][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-23.43.02:912][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-23.43.02:958][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.06-23.43.02:998][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Esther/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.06-23.43.02:998][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Esther/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.06-23.43.02:998][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.06-23.43.02:998][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.06-23.43.03:060][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.06-23.43.03:072][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Esther/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.06-23.43.03:186][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.06-23.43.03:318][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.06-23.43.03:318][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.06-23.43.03:655][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.06-23.43.03:701][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.06-23.43.04:331][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.06-23.43.04:479][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Esther/Desktop/PuzzleTest/PuzzleTest/Binaries/Win64. Error: 0
+[2014.12.06-23.43.04:601][  0]SourceControl: Info Source control is disabled
+[2014.12.06-23.43.04:601][  0]SourceControl: Info Source control is disabled
+[2014.12.06-23.43.04:607][  0]SourceControl: Info Source control is disabled
+[2014.12.06-23.43.04:701][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.06-23.43.04:701][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2014.12.06-23.43.04:751][  0]LogEngine: Initializing Engine...
+[2014.12.06-23.43.04:878][  0]LogInit: XAudio2 using '32LD400-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.06-23.43.04:886][  0]LogInit: FAudioDevice initialized.
+[2014.12.06-23.43.04:902][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.06-23.43.04:926][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Esther/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.06-23.43.04:930][  0]LogInit: Texture streaming: Enabled
+[2014.12.06-23.43.04:951][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.06-23.43.04:951][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.06-23.43.04:952][  0]LogAnalytics: SetUserId 70beb0383841c0a2e9ed774eed08f711
+[2014.12.06-23.43.04:952][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.06-23.43.04:963][  0]LogInit: Transaction tracking system initialized
+[2014.12.06-23.43.05:035][  0]BlueprintLog: New page: Editor Load
+[2014.12.06-23.43.05:061][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2014.12.06-23.43.05:061][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.06-23.43.05:478][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-23.43.05:799][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-23.43.05:946][  0]LogConsoleResponse:Display: 
+[2014.12.06-23.43.05:988][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.06-23.43.06:145][  0]SourceControl: Info Source control is disabled
+[2014.12.06-23.43.06:145][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.06-23.43.06:145][  0]LightingResults: New page: Lighting Build
+[2014.12.06-23.43.06:152][  0]MapCheck: New page: Map Check
+[2014.12.06-23.43.06:152][  0]LightingResults: New page: Lighting Build
+[2014.12.06-23.43.06:161][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002329F88F40
+[2014.12.06-23.43.06:501][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.06-23.43.06:501][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-23.43.06:501][  0]Cmd: MAP CHECKDEP
+[2014.12.06-23.43.06:501][  0]MapCheck: New page: Example_Map - Dec 6, 2014, 1:43:06 PM
+[2014.12.06-23.43.06:568][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.244ms to complete.
+[2014.12.06-23.43.06:568][  0]LogFileHelpers: Loading map 'Example_Map' took 0.422
+[2014.12.06-23.43.06:644][  0]LogCollectionManager: Loaded 0 collections in 0.000833 seconds
+[2014.12.06-23.43.06:723][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.06-23.43.06:729][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.06-23.43.06:755][  0]LogLoad: Full Startup: 11.24 seconds (BP compile: 0.06 seconds)
+[2014.12.06-23.43.06:894][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.12.06-23.43.07:079][  2]LogAssetRegistry: Asset discovery search completed in 2.0300 seconds
+[2014.12.06-23.43.08:563][122]LogEditorViewport: Clicking on Actor (LMB): Square_C (Square)
+[2014.12.06-23.43.08:768][137]LogEditorViewport: Clicking on Actor (context menu): Square_C (Square)
+[2014.12.06-23.43.40:329][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.43.40:645][394]LogSavePackage: Save=313.382843ms
+[2014.12.06-23.43.40:645][394]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square55876F7F490B7D360DC6FC85A530870C.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.44.07:812][185]BlueprintLog: New page: Compile Square
+[2014.12.06-23.44.07:915][185]BlueprintEditorCompileResults: Info [0072.40] Compile of Square successful! [in 97 ms]
+[2014.12.06-23.45.38:106][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.45.38:427][948]LogSavePackage: Save=317.892517ms
+[2014.12.06-23.45.38:427][948]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/SquareC50CF3DA4B7F1AB19B438F9BCF747A04.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.46.51:921][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.46.52:241][450]LogSavePackage: Save=316.953857ms
+[2014.12.06-23.46.52:241][450]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/SquareCEC2A4FB43883387A92CFA8E85F792B7.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.46.53:093][506]BlueprintLog: New page: Compile Square
+[2014.12.06-23.46.53:125][506]LogBlueprint:Error: [compiler] Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:125][506]LogBlueprint:Error: [compiler] Error The type of  Array Element  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:126][506]LogBlueprint:Error: [compiler] Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:126][506]LogBlueprint:Error: [compiler] Error The type of  [ 0]  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:126][506]LogBlueprint:Error: [compiler] Error The type of  Target Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:126][506]LogBlueprint:Error: [compiler] Error The type of  Target Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:127][506]LogBlueprint:Error: [compiler] Error The type of  Item  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:127][506]LogBlueprint:Error: [compiler] Error The type of  Array Element  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:127][506]LogBlueprint:Error: [compiler] Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:269][506]LogBlueprint:Warning: [compiler] Warning [0237.76] Compile of Square failed. 9 Fatal Issue(s) 0 Warning(s) [in 150 ms]
+[2014.12.06-23.46.53:270][506]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:270][506]BlueprintEditorCompileResults:Error: Error The type of  Array Element  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:270][506]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:270][506]BlueprintEditorCompileResults:Error: Error The type of  [ 0]  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:270][506]BlueprintEditorCompileResults:Error: Error The type of  Target Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:270][506]BlueprintEditorCompileResults:Error: Error The type of  Target Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:270][506]BlueprintEditorCompileResults:Error: Error The type of  Item  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:270][506]BlueprintEditorCompileResults:Error: Error The type of  Array Element  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:270][506]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.46.53:270][506]BlueprintEditorCompileResults:Warning: Warning [0237.76] Compile of Square failed. 9 Fatal Issue(s) 0 Warning(s) [in 150 ms]
+[2014.12.06-23.47.09:625][535]LogEditorTransaction: Undo Add Child
+[2014.12.06-23.47.09:625][535]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.Square_C_2.TRASH_SceneComponent_40) Trying to register component with IsPendingKill() == true. Aborting.
+[2014.12.06-23.47.10:370][561]Cmd: TRANSACTION UNDO
+[2014.12.06-23.47.10:370][561]LogEditorTransaction: Undo Add Child
+[2014.12.06-23.47.10:371][561]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.Square_C_2.TRASH_SceneComponent_32) Trying to register component with IsPendingKill() == true. Aborting.
+[2014.12.06-23.47.10:638][573]Cmd: TRANSACTION UNDO
+[2014.12.06-23.47.10:638][573]LogEditorTransaction: Undo Add Child
+[2014.12.06-23.47.10:638][573]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.Square_C_2.TRASH_SceneComponent_24) Trying to register component with IsPendingKill() == true. Aborting.
+[2014.12.06-23.47.10:891][584]Cmd: TRANSACTION UNDO
+[2014.12.06-23.47.10:891][584]LogEditorTransaction: Undo Add Child
+[2014.12.06-23.47.10:891][584]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.Square_C_2.TRASH_SceneComponent_16) Trying to register component with IsPendingKill() == true. Aborting.
+[2014.12.06-23.47.11:132][594]Cmd: TRANSACTION UNDO
+[2014.12.06-23.47.11:132][594]LogEditorTransaction: Undo Bulk Remove Items
+[2014.12.06-23.47.11:697][624]Cmd: TRANSACTION UNDO
+[2014.12.06-23.47.11:697][624]LogEditorTransaction: Undo Delete current selection
+[2014.12.06-23.47.12:126][644]Cmd: TRANSACTION UNDO
+[2014.12.06-23.47.12:126][644]LogEditorTransaction: Undo Change Paramater Type
+[2014.12.06-23.47.24:003][382]BlueprintLog: New page: Compile Square
+[2014.12.06-23.47.24:015][382]LogBlueprint:Error: [compiler] Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2014.12.06-23.47.24:015][382]LogBlueprint:Error: [compiler] Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:015][382]LogBlueprint:Error: [compiler] Error The type of  Array Element  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:016][382]LogBlueprint:Error: [compiler] Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:016][382]LogBlueprint:Error: [compiler] Error The type of  [ 0]  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:016][382]LogBlueprint:Error: [compiler] Error The type of  Target Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:016][382]LogBlueprint:Error: [compiler] Error The type of  Target Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:016][382]LogBlueprint:Error: [compiler] Error The type of  Item  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:017][382]LogBlueprint:Error: [compiler] Error The type of  Array Element  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:017][382]LogBlueprint:Error: [compiler] Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:156][382]LogBlueprint:Warning: [compiler] Warning [0268.64] Compile of Square failed. 10 Fatal Issue(s) 0 Warning(s) [in 146 ms]
+[2014.12.06-23.47.24:156][382]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2014.12.06-23.47.24:156][382]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:156][382]BlueprintEditorCompileResults:Error: Error The type of  Array Element  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:156][382]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:156][382]BlueprintEditorCompileResults:Error: Error The type of  [ 0]  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:156][382]BlueprintEditorCompileResults:Error: Error The type of  Target Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:156][382]BlueprintEditorCompileResults:Error: Error The type of  Target Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:156][382]BlueprintEditorCompileResults:Error: Error The type of  Item  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:157][382]BlueprintEditorCompileResults:Error: Error The type of  Array Element  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:157][382]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2014.12.06-23.47.24:157][382]BlueprintEditorCompileResults:Warning: Warning [0268.64] Compile of Square failed. 10 Fatal Issue(s) 0 Warning(s) [in 146 ms]
+[2014.12.06-23.47.24:854][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.47.25:173][418]LogSavePackage: Save=316.250702ms
+[2014.12.06-23.47.25:173][418]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square9F62833C4010380F913068AF1654C66E.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.47.54:704][279]BlueprintLog: New page: Compile Square
+[2014.12.06-23.47.54:716][279]LogBlueprint:Error: [compiler] Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2014.12.06-23.47.54:850][279]LogBlueprint:Warning: [compiler] Warning [0299.34] Compile of Square failed. 1 Fatal Issue(s) 0 Warning(s) [in 139 ms]
+[2014.12.06-23.47.54:850][279]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2014.12.06-23.47.54:850][279]BlueprintEditorCompileResults:Warning: Warning [0299.34] Compile of Square failed. 1 Fatal Issue(s) 0 Warning(s) [in 139 ms]
+[2014.12.06-23.47.55:845][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.47.56:190][335]LogSavePackage: Save=339.475830ms
+[2014.12.06-23.47.56:190][335]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square1354A534472B1B4E5F838086EC512120.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.48.29:573][527]BlueprintLog: New page: Compile Square
+[2014.12.06-23.48.29:585][527]LogBlueprint:Error: [compiler] Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2014.12.06-23.48.29:719][527]LogBlueprint:Warning: [compiler] Warning [0334.21] Compile of Square failed. 1 Fatal Issue(s) 0 Warning(s) [in 139 ms]
+[2014.12.06-23.48.29:719][527]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2014.12.06-23.48.29:719][527]BlueprintEditorCompileResults:Warning: Warning [0334.21] Compile of Square failed. 1 Fatal Issue(s) 0 Warning(s) [in 139 ms]
+[2014.12.06-23.48.30:294][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.48.30:616][558]LogSavePackage: Save=319.624359ms
+[2014.12.06-23.48.30:616][558]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/SquareFC01612C4B0EB84F00C9319D8AF5204F.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.49.49:191][317]BlueprintLog: New page: Compile Square
+[2014.12.06-23.49.49:299][317]BlueprintEditorCompileResults: Info [0413.79] Compile of Square successful! [in 101 ms]
+[2014.12.06-23.50.02:401][128]BlueprintLog: New page: Compile Square
+[2014.12.06-23.50.02:530][128]BlueprintEditorCompileResults: Info [0427.02] Compile of Square successful! [in 113 ms]
+[2014.12.06-23.50.03:364][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.50.03:689][178]LogSavePackage: Save=320.714325ms
+[2014.12.06-23.50.03:689][178]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square8C6DCBC940BCA136DBCF2F99C00B233F.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.50.11:365][650]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.50.37:168][ 25]BlueprintLog: New page: Compile Square
+[2014.12.06-23.50.37:299][ 25]BlueprintEditorCompileResults: Info [0461.79] Compile of Square successful! [in 104 ms]
+[2014.12.06-23.50.38:046][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.50.38:377][ 62]LogSavePackage: Save=326.635345ms
+[2014.12.06-23.50.38:377][ 62]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square65EE594E4055630788FA4B850E862F4D.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.51.03:106][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.51.03:125][621]LogSavePackage: Save=15.564369ms
+[2014.12.06-23.51.03:125][621]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square7AD3CF3F40DFB4D9DC503A9D69AE0531.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.51.09:628][ 44]LogBlueprint:Error: [compiler] Error  Add BoxComponent  cannot be placed in function graph
+[2014.12.06-23.51.09:628][ 44]BlueprintLog: New page: Collapse to Function
+[2014.12.06-23.51.09:628][ 44]BlueprintLog:Error: Error  Add BoxComponent  cannot be placed in function graph
+[2014.12.06-23.51.09:650][ 44]LogBlueprint:Warning: [compiler] Warning [0494.14] Compile of  failed. 1 Fatal Issue(s) 0 Warning(s) [in 19 ms]
+[2014.12.06-23.51.12:578][208]LogBlueprint:Error: [compiler] Error  Add BoxComponent  cannot be placed in macro graph
+[2014.12.06-23.51.12:578][208]BlueprintLog: New page: Collapse to Macro
+[2014.12.06-23.51.12:578][208]BlueprintLog:Error: Error  Add BoxComponent  cannot be placed in macro graph
+[2014.12.06-23.51.12:600][208]LogBlueprint:Warning: [compiler] Warning [0497.09] Compile of  failed. 1 Fatal Issue(s) 0 Warning(s) [in 19 ms]
+[2014.12.06-23.51.35:416][619]BlueprintLog: New page: Compile Square
+[2014.12.06-23.51.35:526][619]BlueprintEditorCompileResults: Info [0520.01] Compile of Square successful! [in 101 ms]
+[2014.12.06-23.51.36:305][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.51.36:632][667]LogSavePackage: Save=323.383362ms
+[2014.12.06-23.51.36:632][667]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square8E8159494833935B567F1FA1EE504FDA.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.51.43:974][158]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.06-23.51.43:974][158]LogCrashTracker: 
+
+
+[2014.12.06-23.51.44:169][158]LogCrashTracker: 
+
+
+[2014.12.06-23.51.44:169][158]LogWindows: === Critical error: ===
+Assertion failed: GraphNodes.Num() == 1 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Editor\UnrealEd\Private\Kismet2\BlueprintEditorUtils.cpp] [Line: 3246] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffabe2f606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa8522f6d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa83b60e8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa8399182) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffaa48f40eb) + 0 bytes [UnknownFile:0]
+UE4Editor-BlueprintGraph.dll!UnknownFunction (0x00007ffaa2a6c943) + 0 bytes [UnknownFile:0]
+UE4Editor-BlueprintGraph.dll!UnknownFunction (0x00007ffaa2a635d2) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa2123bcb) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa1fd9a85) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa1fdc51c) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa20ec4c1) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa20e6aea) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa21912ef) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa2163ec4) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa215c24f) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffaaa1597bc) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffaaa117347) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffaaa1bb2e0) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffaaa1ac226) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa848ea0d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa847a1eb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa848fbab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa8476ce2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffac0812434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffac0812297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa8490066) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff77eeccbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff77eec089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff77eec090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff77eece3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff77eecf319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffabe7316ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffac0bd4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffac0bd4409) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.06-23.51.44:321][158]LogExit: Executing StaticShutdownAfterError
+[2014.12.06-23.51.44:324][158]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.06-23.51.44:324][158]Log file closed, 12/06/14 18:51:44

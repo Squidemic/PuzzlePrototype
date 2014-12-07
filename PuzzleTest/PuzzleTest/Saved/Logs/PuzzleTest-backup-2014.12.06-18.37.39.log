@@ -1,0 +1,1030 @@
+﻿Log file open, 12/06/14 17:48:10
+LogInit:Display: Running engine for game: PuzzleTest
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.06-22.48.10:555][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.06-22.48.10:606][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.06-22.48.10:622][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.06-22.48.10:630][  0]LogInit: Object subsystem initialized
+[2014.12.06-22.48.10:634][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.06-22.48.10:634][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.06-22.48.10:637][  0]LogInit: Computer: ARCHER
+[2014.12.06-22.48.10:637][  0]LogInit: User: Esther
+[2014.12.06-22.48.10:637][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.06-22.48.10:637][  0]LogInit: High frequency timer resolution =3.410225 MHz
+[2014.12.06-22.48.10:637][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2014.12.06-22.48.10:638][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.06-22.48.10:638][  0]LogMemory: Process Physical Memory: 46.37 MB used, 46.37 MB peak
+[2014.12.06-22.48.10:638][  0]LogMemory: Process Virtual Memory: 22.19 MB used, 24.42 MB peak
+[2014.12.06-22.48.10:638][  0]LogMemory: Physical Memory: 4320.64 MB used, 16330.93 MB total
+[2014.12.06-22.48.10:638][  0]LogMemory: Virtual Memory: 274.29 MB used, 134217728.00 MB total
+[2014.12.06-22.48.10:656][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2014.12.06-22.48.10:656][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.12.06-22.48.10:656][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.06-22.48.10:656][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.06-22.48.10:656][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.06-22.48.10:659][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.06-22.48.10:669][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.06-22.48.10:742][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.06-22.48.10:868][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.06-22.48.15:959][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-22.48.16:347][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-22.48.16:391][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.06-22.48.16:432][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Esther/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.06-22.48.16:432][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Esther/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.06-22.48.16:432][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.06-22.48.16:432][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.06-22.48.16:495][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.06-22.48.16:507][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Esther/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.06-22.48.16:622][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.06-22.48.16:749][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.06-22.48.16:749][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.06-22.48.17:086][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.06-22.48.17:132][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.06-22.48.17:911][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.06-22.48.18:062][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Esther/Desktop/PuzzleTest/PuzzleTest/Binaries/Win64. Error: 0
+[2014.12.06-22.48.18:184][  0]SourceControl: Info Source control is disabled
+[2014.12.06-22.48.18:184][  0]SourceControl: Info Source control is disabled
+[2014.12.06-22.48.18:190][  0]SourceControl: Info Source control is disabled
+[2014.12.06-22.48.18:283][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.06-22.48.18:283][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2014.12.06-22.48.18:332][  0]LogEngine: Initializing Engine...
+[2014.12.06-22.48.18:458][  0]LogInit: XAudio2 using '32LD400-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.06-22.48.18:462][  0]LogInit: FAudioDevice initialized.
+[2014.12.06-22.48.18:477][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.06-22.48.18:500][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Esther/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.06-22.48.18:504][  0]LogInit: Texture streaming: Enabled
+[2014.12.06-22.48.18:525][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.06-22.48.18:525][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.06-22.48.18:525][  0]LogAnalytics: SetUserId 70beb0383841c0a2e9ed774eed08f711
+[2014.12.06-22.48.18:525][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.06-22.48.18:537][  0]LogInit: Transaction tracking system initialized
+[2014.12.06-22.48.18:607][  0]BlueprintLog: New page: Editor Load
+[2014.12.06-22.48.18:632][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2014.12.06-22.48.18:632][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.06-22.48.19:039][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-22.48.19:339][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-22.48.21:211][  0]LogConsoleResponse:Display: 
+[2014.12.06-22.48.21:251][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.06-22.48.21:435][  0]SourceControl: Info Source control is disabled
+[2014.12.06-22.48.21:435][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.06-22.48.21:436][  0]LightingResults: New page: Lighting Build
+[2014.12.06-22.48.21:443][  0]MapCheck: New page: Map Check
+[2014.12.06-22.48.21:443][  0]LightingResults: New page: Lighting Build
+[2014.12.06-22.48.21:450][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4B2554F40
+[2014.12.06-22.48.21:679][  0]LogLinker:Warning: Asset '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/ClickBlockGrid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.06-22.48.22:800][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.12.06-22.48.22:936][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.12.06-22.48.22:948][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.12.06-22.48.22:988][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.12.06-22.48.22:997][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.12.06-22.48.23:023][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.12.06-22.48.23:132][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.06-22.48.23:132][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-22.48.23:133][  0]Cmd: MAP CHECKDEP
+[2014.12.06-22.48.23:133][  0]MapCheck: New page: Example_Map - Dec 6, 2014, 12:48:23 PM
+[2014.12.06-22.48.23:210][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.325ms to complete.
+[2014.12.06-22.48.23:210][  0]LogFileHelpers: Loading map 'Example_Map' took 1.774
+[2014.12.06-22.48.23:362][  0]LogCollectionManager: Loaded 0 collections in 0.000819 seconds
+[2014.12.06-22.48.23:558][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.06-22.48.23:563][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.06-22.48.23:590][  0]LogLoad: Full Startup: 14.80 seconds (BP compile: 0.16 seconds)
+[2014.12.06-22.48.23:733][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.12.06-22.48.29:943][371]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.12.06-22.48.41:380][506]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Esther/Desktop/PuzzleTest/Piece_Angle.fbx)
+[2014.12.06-22.48.41:597][506]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.12.06-22.48.41:597][506]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.12.06-22.48.41:597][506]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.12.06-22.48.41:597][506]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.12.06-22.48.41:597][506]LogFbx: ItemName: Material, ItemCount : 1
+[2014.12.06-22.48.41:597][506]LogFbx: ItemName: Model, ItemCount : 1
+[2014.12.06-22.48.48:839][506]LogFbx: Loading FBX Scene from ../../../../../../Users/Esther/Desktop/PuzzleTest/Piece_Angle.fbx
+[2014.12.06-22.48.48:852][506]LogFbx: FBX Scene Loaded Succesfully
+[2014.12.06-22.48.48:855][506]LogFbx:Warning: Triangulating static mesh Cross
+[2014.12.06-22.48.48:865][506]LogFbx: == Initial material list:
+[2014.12.06-22.48.48:865][506]LogFbx: 0: lambert1
+[2014.12.06-22.48.48:865][506]LogFbx: == After sorting:
+[2014.12.06-22.48.48:865][506]LogFbx: 0: lambert1
+[2014.12.06-22.48.48:865][506]LogFbx: == Mapping table:
+[2014.12.06-22.48.48:865][506]LogFbx:   sort 0 -> 0
+[2014.12.06-22.48.48:906][506]LogStaticMesh: Building static mesh Piece_Angle...
+[2014.12.06-22.48.48:925][506]LogLayoutUV:Display: FindCharts: 0 ms
+[2014.12.06-22.48.48:925][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.48:925][506]LogLayoutUV:Display:   Rasterize: 1807
+[2014.12.06-22.48.48:925][506]LogLayoutUV:Display:   Find: 852
+[2014.12.06-22.48.48:927][506]LogLayoutUV:Display: PackCharts: 1 ms
+[2014.12.06-22.48.48:927][506]LogLayoutUV:Display:   Rasterize: 1909
+[2014.12.06-22.48.48:927][506]LogLayoutUV:Display:   Find: 1693
+[2014.12.06-22.48.48:929][506]LogLayoutUV:Display: PackCharts: 1 ms
+[2014.12.06-22.48.48:929][506]LogLayoutUV:Display:   Rasterize: 1936
+[2014.12.06-22.48.48:929][506]LogLayoutUV:Display:   Find: 1691
+[2014.12.06-22.48.48:931][506]LogLayoutUV:Display: PackCharts: 1 ms
+[2014.12.06-22.48.48:931][506]LogLayoutUV:Display:   Rasterize: 1956
+[2014.12.06-22.48.48:931][506]LogLayoutUV:Display:   Find: 1683
+[2014.12.06-22.48.48:932][506]LogLayoutUV:Display: PackCharts: 1 ms
+[2014.12.06-22.48.48:932][506]LogLayoutUV:Display:   Rasterize: 1937
+[2014.12.06-22.48.48:932][506]LogLayoutUV:Display:   Find: 1705
+[2014.12.06-22.48.48:933][506]LogStaticMesh: Built static mesh [46.067047ms] /Game/Meshes/Piece_Angle.Piece_Angle
+[2014.12.06-22.48.49:053][506]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Esther/Desktop/PuzzleTest/Piece_Cross.fbx)
+[2014.12.06-22.48.50:474][506]LogFbx: Loading FBX Scene from ../../../../../../Users/Esther/Desktop/PuzzleTest/Piece_Cross.fbx
+[2014.12.06-22.48.50:480][506]LogFbx: FBX Scene Loaded Succesfully
+[2014.12.06-22.48.50:482][506]LogFbx:Warning: Triangulating static mesh Cross
+[2014.12.06-22.48.50:493][506]LogFbx: == Initial material list:
+[2014.12.06-22.48.50:493][506]LogFbx: 0: lambert1
+[2014.12.06-22.48.50:493][506]LogFbx: == After sorting:
+[2014.12.06-22.48.50:493][506]LogFbx: 0: lambert1
+[2014.12.06-22.48.50:493][506]LogFbx: == Mapping table:
+[2014.12.06-22.48.50:493][506]LogFbx:   sort 0 -> 0
+[2014.12.06-22.48.50:494][506]LogStaticMesh: Building static mesh Piece_Cross...
+[2014.12.06-22.48.50:495][506]LogLayoutUV:Display: FindCharts: 0 ms
+[2014.12.06-22.48.50:495][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:495][506]LogLayoutUV:Display:   Rasterize: 1004
+[2014.12.06-22.48.50:495][506]LogLayoutUV:Display:   Find: 1107
+[2014.12.06-22.48.50:496][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:496][506]LogLayoutUV:Display:   Rasterize: 1017
+[2014.12.06-22.48.50:496][506]LogLayoutUV:Display:   Find: 1337
+[2014.12.06-22.48.50:497][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:497][506]LogLayoutUV:Display:   Rasterize: 1020
+[2014.12.06-22.48.50:497][506]LogLayoutUV:Display:   Find: 1339
+[2014.12.06-22.48.50:500][506]LogLayoutUV:Display: PackCharts: 1 ms
+[2014.12.06-22.48.50:500][506]LogLayoutUV:Display:   Rasterize: 1564
+[2014.12.06-22.48.50:500][506]LogLayoutUV:Display:   Find: 2481
+[2014.12.06-22.48.50:501][506]LogStaticMesh: Built static mesh [6.776972ms] /Game/Meshes/Piece_Cross.Piece_Cross
+[2014.12.06-22.48.50:521][506]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Esther/Desktop/PuzzleTest/Piece_Halfline1.fbx)
+[2014.12.06-22.48.50:527][506]LogFbx: Loading FBX Scene from ../../../../../../Users/Esther/Desktop/PuzzleTest/Piece_Halfline1.fbx
+[2014.12.06-22.48.50:532][506]LogFbx: FBX Scene Loaded Succesfully
+[2014.12.06-22.48.50:535][506]LogFbx:Warning: Triangulating static mesh Cross
+[2014.12.06-22.48.50:539][506]LogFbx: == Initial material list:
+[2014.12.06-22.48.50:539][506]LogFbx: 0: lambert2
+[2014.12.06-22.48.50:539][506]LogFbx: == After sorting:
+[2014.12.06-22.48.50:539][506]LogFbx: 0: lambert2
+[2014.12.06-22.48.50:539][506]LogFbx: == Mapping table:
+[2014.12.06-22.48.50:539][506]LogFbx:   sort 0 -> 0
+[2014.12.06-22.48.50:539][506]LogStaticMesh: Building static mesh Piece_Halfline1...
+[2014.12.06-22.48.50:540][506]LogLayoutUV:Display: FindCharts: 0 ms
+[2014.12.06-22.48.50:540][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:540][506]LogLayoutUV:Display:   Rasterize: 703
+[2014.12.06-22.48.50:540][506]LogLayoutUV:Display:   Find: 1300
+[2014.12.06-22.48.50:542][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:542][506]LogLayoutUV:Display:   Rasterize: 711
+[2014.12.06-22.48.50:542][506]LogLayoutUV:Display:   Find: 1234
+[2014.12.06-22.48.50:543][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:543][506]LogLayoutUV:Display:   Rasterize: 722
+[2014.12.06-22.48.50:543][506]LogLayoutUV:Display:   Find: 1231
+[2014.12.06-22.48.50:543][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:543][506]LogLayoutUV:Display:   Rasterize: 710
+[2014.12.06-22.48.50:543][506]LogLayoutUV:Display:   Find: 1217
+[2014.12.06-22.48.50:544][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:544][506]LogLayoutUV:Display:   Rasterize: 708
+[2014.12.06-22.48.50:544][506]LogLayoutUV:Display:   Find: 1217
+[2014.12.06-22.48.50:544][506]LogStaticMesh: Built static mesh [4.772119ms] /Game/Meshes/Piece_Halfline1.Piece_Halfline1
+[2014.12.06-22.48.50:549][506]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Esther/Desktop/PuzzleTest/Piece_Halfline2.fbx)
+[2014.12.06-22.48.50:555][506]LogFbx: Loading FBX Scene from ../../../../../../Users/Esther/Desktop/PuzzleTest/Piece_Halfline2.fbx
+[2014.12.06-22.48.50:561][506]LogFbx: FBX Scene Loaded Succesfully
+[2014.12.06-22.48.50:563][506]LogFbx:Warning: Triangulating static mesh Cross
+[2014.12.06-22.48.50:566][506]LogFbx: == Initial material list:
+[2014.12.06-22.48.50:566][506]LogFbx: 0: lambert2
+[2014.12.06-22.48.50:566][506]LogFbx: == After sorting:
+[2014.12.06-22.48.50:566][506]LogFbx: 0: lambert2
+[2014.12.06-22.48.50:566][506]LogFbx: == Mapping table:
+[2014.12.06-22.48.50:566][506]LogFbx:   sort 0 -> 0
+[2014.12.06-22.48.50:577][506]LogStaticMesh: Building static mesh Piece_Halfline2...
+[2014.12.06-22.48.50:577][506]LogLayoutUV:Display: FindCharts: 0 ms
+[2014.12.06-22.48.50:577][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:577][506]LogLayoutUV:Display:   Rasterize: 502
+[2014.12.06-22.48.50:577][506]LogLayoutUV:Display:   Find: 113
+[2014.12.06-22.48.50:578][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:578][506]LogLayoutUV:Display:   Rasterize: 510
+[2014.12.06-22.48.50:578][506]LogLayoutUV:Display:   Find: 87
+[2014.12.06-22.48.50:578][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:578][506]LogLayoutUV:Display:   Rasterize: 517
+[2014.12.06-22.48.50:578][506]LogLayoutUV:Display:   Find: 87
+[2014.12.06-22.48.50:579][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:579][506]LogLayoutUV:Display:   Rasterize: 527
+[2014.12.06-22.48.50:579][506]LogLayoutUV:Display:   Find: 80
+[2014.12.06-22.48.50:579][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:579][506]LogLayoutUV:Display:   Rasterize: 513
+[2014.12.06-22.48.50:579][506]LogLayoutUV:Display:   Find: 79
+[2014.12.06-22.48.50:579][506]LogStaticMesh: Built static mesh [12.707080ms] /Game/Meshes/Piece_Halfline2.Piece_Halfline2
+[2014.12.06-22.48.50:602][506]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Esther/Desktop/PuzzleTest/Piece_Line.fbx)
+[2014.12.06-22.48.50:616][506]LogFbx: Loading FBX Scene from ../../../../../../Users/Esther/Desktop/PuzzleTest/Piece_Line.fbx
+[2014.12.06-22.48.50:628][506]LogFbx: FBX Scene Loaded Succesfully
+[2014.12.06-22.48.50:633][506]LogFbx:Warning: Triangulating static mesh Cross
+[2014.12.06-22.48.50:643][506]LogFbx: == Initial material list:
+[2014.12.06-22.48.50:643][506]LogFbx: 0: lambert2
+[2014.12.06-22.48.50:643][506]LogFbx: == After sorting:
+[2014.12.06-22.48.50:643][506]LogFbx: 0: lambert2
+[2014.12.06-22.48.50:643][506]LogFbx: == Mapping table:
+[2014.12.06-22.48.50:643][506]LogFbx:   sort 0 -> 0
+[2014.12.06-22.48.50:654][506]LogStaticMesh: Building static mesh Piece_Line...
+[2014.12.06-22.48.50:654][506]LogLayoutUV:Display: FindCharts: 0 ms
+[2014.12.06-22.48.50:655][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:655][506]LogLayoutUV:Display:   Rasterize: 820
+[2014.12.06-22.48.50:655][506]LogLayoutUV:Display:   Find: 1378
+[2014.12.06-22.48.50:657][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:657][506]LogLayoutUV:Display:   Rasterize: 838
+[2014.12.06-22.48.50:657][506]LogLayoutUV:Display:   Find: 1353
+[2014.12.06-22.48.50:658][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:658][506]LogLayoutUV:Display:   Rasterize: 851
+[2014.12.06-22.48.50:658][506]LogLayoutUV:Display:   Find: 1419
+[2014.12.06-22.48.50:659][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:659][506]LogLayoutUV:Display:   Rasterize: 854
+[2014.12.06-22.48.50:659][506]LogLayoutUV:Display:   Find: 1376
+[2014.12.06-22.48.50:659][506]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.06-22.48.50:659][506]LogLayoutUV:Display:   Rasterize: 845
+[2014.12.06-22.48.50:659][506]LogLayoutUV:Display:   Find: 1371
+[2014.12.06-22.48.50:660][506]LogStaticMesh: Built static mesh [16.059937ms] /Game/Meshes/Piece_Line.Piece_Line
+[2014.12.06-22.48.50:677][506]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.12.06-22.48.50:677][506]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.12.06-22.48.50:700][506]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.12.06-22.48.50:700][506]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.12.06-22.48.50:700][506]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.12.06-22.48.50:700][506]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.12.06-22.48.50:736][506]LogAssetRegistry: Asset discovery search completed in 32.1146 seconds
+[2014.12.06-22.48.52:622][647]LogActorFactory: Actor Factory created Piece_Line
+[2014.12.06-22.48.53:294][711]LogActorFactory: Actor Factory created Piece_Line
+[2014.12.06-22.48.53:409][711]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.48.53:521][711]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.48.56:736][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Piece_Line)
+[2014.12.06-22.48.56:745][964]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.49.00:749][343]Cmd: TRANSACTION UNDO
+[2014.12.06-22.49.00:749][343]LogEditorTransaction: Undo Scale Actors
+[2014.12.06-22.49.00:758][343]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.49.06:543][732]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.12.06-22.49.17:450][367]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-22.49.17:652][367]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.06-22.49.17:747][367]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.06-22.49.17:747][367]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.12.06-22.49.17:772][367]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-22.49.20:099][470]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2014.12.06-22.49.20:099][470]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-22.49.20:099][470]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-22.49.24:395][800]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-22.49.24:419][800]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-22.49.24:893][817]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2014.12.06-22.49.24:893][817]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-22.49.24:893][817]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-22.49.27:382][983]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-22.49.27:440][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-22.49.27:944][  4]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2014.12.06-22.49.27:944][  4]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-22.49.27:944][  4]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-22.49.42:769][ 32]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-22.49.42:813][ 32]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-22.49.43:322][ 51]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.12.06-22.49.43:322][ 51]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-22.49.43:322][ 51]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-22.49.44:869][150]LogMaterialEditor: Applying material MAT_Blocks
+[2014.12.06-22.49.46:178][150]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-22.49.46:257][150]LogMaterial: Missing cached shader map for material MAT_Blocks, compiling.
+[2014.12.06-22.49.46:288][150]LogMaterial: Missing cached shader map for material MAT_Blocks, compiling.
+[2014.12.06-22.49.46:297][150]LogMaterial: 0.001387 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-22.49.54:152][635]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-22.49.54:172][635]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.12.06-22.49.54:206][635]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.12.06-22.49.54:206][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.12.06-22.49.54:206][635]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.12.06-22.49.54:206][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.12.06-22.49.54:224][635]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-22.49.54:273][635]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-22.49.54:824][653]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.12.06-22.49.54:824][653]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-22.49.54:824][653]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-22.50.00:581][ 38]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-22.50.00:626][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-22.50.01:177][ 60]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.12.06-22.50.01:177][ 60]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-22.50.01:177][ 60]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-22.50.02:079][118]LogMaterialEditor: Applying material MAT_Blocks
+[2014.12.06-22.50.03:365][118]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-22.50.03:456][118]LogMaterial: Missing cached shader map for material MAT_Blocks, compiling.
+[2014.12.06-22.50.03:491][118]LogMaterial: Missing cached shader map for material MAT_Blocks, compiling.
+[2014.12.06-22.50.03:498][118]LogMaterial: 0.001505 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-22.50.05:254][205]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2014.12.06-22.50.05:254][205]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-22.50.05:254][205]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.12.06-22.50.09:097][414]LogMaterialEditor: Saving and Compiling material MAT_Blocks
+[2014.12.06-22.50.10:407][414]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-22.50.10:513][414]LogMaterial: Missing cached shader map for material MAT_Blocks, compiling.
+[2014.12.06-22.50.10:536][414]LogMaterial: Missing cached shader map for material MAT_Blocks, compiling.
+[2014.12.06-22.50.10:544][414]LogMaterial: 0.001305 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-22.50.12:097][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/MAT_Blocks" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Meshes/MAT_Blocks.uasset" SILENT=true
+[2014.12.06-22.50.12:532][414]LogSavePackage: Save=432.880249ms
+[2014.12.06-22.50.12:532][414]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/MAT_Blocks120B5F0040ED6420012936834BE7DAA7.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Meshes/MAT_Blocks.uasset'
+[2014.12.06-22.50.15:952][651]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.12.06-22.50.25:376][244]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-22.50.25:385][244]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.12.06-22.50.25:419][244]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.12.06-22.50.25:419][244]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.12.06-22.50.25:419][244]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.12.06-22.50.25:419][244]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.12.06-22.50.25:429][244]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-22.50.25:980][261]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2014.12.06-22.50.25:980][261]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-22.50.25:980][261]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-22.50.29:064][473]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-22.50.29:068][473]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling.
+[2014.12.06-22.50.29:595][494]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2014.12.06-22.50.29:595][494]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-22.50.29:595][494]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-22.50.31:261][601]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-22.50.31:301][601]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling.
+[2014.12.06-22.50.31:838][623]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2014.12.06-22.50.31:838][623]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-22.50.31:838][623]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-22.50.35:535][860]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-22.50.35:564][860]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling.
+[2014.12.06-22.50.36:099][880]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.12.06-22.50.36:099][880]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-22.50.36:099][880]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-22.50.36:796][923]LogMaterialEditor: Applying material MAT_Square
+[2014.12.06-22.50.38:081][923]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-22.50.38:170][923]LogMaterial: Missing cached shader map for material MAT_Square, compiling.
+[2014.12.06-22.50.38:209][923]LogMaterial: Missing cached shader map for material MAT_Square, compiling.
+[2014.12.06-22.50.38:216][923]LogMaterial: 0.001326 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-22.50.38:994][956]LogMaterialEditor: Saving and Compiling material MAT_Square
+[2014.12.06-22.50.40:363][956]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-22.50.40:437][956]LogMaterial: Missing cached shader map for material MAT_Square, compiling.
+[2014.12.06-22.50.40:455][956]LogMaterial: Missing cached shader map for material MAT_Square, compiling.
+[2014.12.06-22.50.40:463][956]LogMaterial: 0.001286 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-22.50.42:030][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/MAT_Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Meshes/MAT_Square.uasset" SILENT=true
+[2014.12.06-22.50.42:413][956]LogSavePackage: Save=382.475647ms
+[2014.12.06-22.50.42:413][956]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/MAT_SquareCDDAB3024F01364E62677A844DBB6E00.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Meshes/MAT_Square.uasset'
+[2014.12.06-22.50.42:419][956]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2014.12.06-22.50.42:419][956]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-22.50.42:419][956]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.12.06-22.50.48:719][502]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.06-22.50.48:719][502]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.06-22.50.48:778][502]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4B25F1D00
+[2014.12.06-22.50.48:779][502]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4ADE7D440
+[2014.12.06-22.50.48:779][502]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4BAC891C0
+[2014.12.06-22.50.48:782][502]LogPlayLevel: PIE:  Blueprint regeneration took 63 ms (1 blueprints)
+[2014.12.06-22.50.48:782][502]PIE: New page: PIE session: Example_Map (Dec 6, 2014, 12:50:48 PM)
+[2014.12.06-22.50.48:805][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022792s)
+[2014.12.06-22.50.48:807][502]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2014.12.06-22.50.48:807][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.024088s)
+[2014.12.06-22.50.48:924][502]LogLinker:Warning: Asset '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/MyGame.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.06-22.50.48:925][502]LogLinker:Warning: Asset '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/MyPlayerController.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.06-22.50.48:946][502]LogWorld: Game class is 'MyGame_C'
+[2014.12.06-22.50.48:949][502]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-22.50.48:951][502]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.06-17.50.48
+[2014.12.06-22.50.48:952][502]LogWorld: Bringing up level for play took: 0.002062
+[2014.12.06-22.50.48:973][502]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.268
+[2014.12.06-22.50.50:895][707]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.50.50:947][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4B4203600
+[2014.12.06-22.50.55:819][140]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.06-22.51.00:408][379]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.51.01:765][456]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.12.06-22.51.04:035][586]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.51.06:473][742]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.51.08:742][890]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.51.14:403][275]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.51.41:836][385]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2014.12.06-22.51.52:741][361]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.06-22.52.11:313][649]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2014.12.06-22.52.19:568][372]LogEditorActor: Deleted Actor: ClickBlockGrid_C
+[2014.12.06-22.52.19:582][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4C809F7E0
+[2014.12.06-22.52.19:582][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4CCD87380
+[2014.12.06-22.52.19:582][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4CD034FE0
+[2014.12.06-22.52.19:584][372]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2014.12.06-22.52.21:333][557]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.06-22.52.21:336][557]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.06-22.52.21:386][557]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.06-22.52.21:468][557]LogPlayLevel: PIE:  Blueprint regeneration took 135 ms (2 blueprints)
+[2014.12.06-22.52.21:468][557]PIE: New page: PIE session: Example_Map (Dec 6, 2014, 12:52:21 PM)
+[2014.12.06-22.52.21:490][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021708s)
+[2014.12.06-22.52.21:491][557]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2014.12.06-22.52.21:491][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.023198s)
+[2014.12.06-22.52.21:533][557]LogWorld: Game class is 'MyGame_C'
+[2014.12.06-22.52.21:534][557]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-22.52.21:535][557]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.06-17.52.21
+[2014.12.06-22.52.21:535][557]LogWorld: Bringing up level for play took: 0.000991
+[2014.12.06-22.52.21:536][557]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.296
+[2014.12.06-22.52.22:895][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4EA678720
+[2014.12.06-22.52.24:212][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Piece_Line)
+[2014.12.06-22.52.24:221][843]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.53.01:394][320]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.06-22.53.18:308][483]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.53.18:322][483]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.53.18:355][483]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.53.18:368][483]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.53.38:987][899]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.53.42:709][159]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.53.42:778][159]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.53.44:099][243]BlueprintLog: New page: Compile Square
+[2014.12.06-22.53.44:155][243]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4CBB44900
+[2014.12.06-22.53.44:162][243]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.53.44:177][243]BlueprintEditorCompileResults: Info [0335.39] Compile of Square successful! [in 67 ms]
+[2014.12.06-22.53.44:194][243]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.53.44:786][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-22.53.45:120][277]LogSavePackage: Save=332.227356ms
+[2014.12.06-22.53.45:120][277]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square68993683429EA1D85BA44680921A5942.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-22.53.45:451][297]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.54.02:810][523]BlueprintLog: New page: Compile Square
+[2014.12.06-22.54.02:885][523]BlueprintEditorCompileResults: Info [0354.10] Compile of Square successful! [in 73 ms]
+[2014.12.06-22.54.03:570][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-22.54.03:907][565]LogSavePackage: Save=335.292542ms
+[2014.12.06-22.54.03:907][565]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square84C39474421D5AE58EA9A7902ED256A6.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-22.54.04:185][583]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.54.22:120][758]LogEditorTransaction: Undo Modify Component(s)
+[2014.12.06-22.54.22:128][758]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.54.22:950][789]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.54.25:317][926]BlueprintLog: New page: Compile Square
+[2014.12.06-22.54.25:370][926]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.54.25:384][926]BlueprintEditorCompileResults: Info [0376.60] Compile of Square successful! [in 66 ms]
+[2014.12.06-22.54.25:401][926]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.54.33:917][507]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.54.33:982][507]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.54.34:064][507]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.54.34:082][507]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.54.38:202][757]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.54.38:279][757]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.54.50:678][565]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.55.10:950][872]Cmd: MODE SCALEGRID=0
+[2014.12.06-22.55.14:201][ 99]Cmd: MODE SCALEGRID=1
+[2014.12.06-22.55.42:285][916]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.56.10:571][747]BlueprintLog: New page: Compile Square
+[2014.12.06-22.56.10:643][747]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.56.10:658][747]BlueprintEditorCompileResults: Info [0481.87] Compile of Square successful! [in 68 ms]
+[2014.12.06-22.56.10:673][747]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.56.20:081][362]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.56.44:884][ 49]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.56.44:900][ 49]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.56.46:379][141]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.56.51:118][442]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.56.51:147][442]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.56.52:755][543]BlueprintLog: New page: Compile Square
+[2014.12.06-22.56.52:764][543]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Trackpiece' variable not found. Base class was probably changed.
+[2014.12.06-22.56.52:764][543]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Trackpiece" in 'Square_C'.
+Make sure 'Square_C' has been compiled for  Set Static Mesh 
+[2014.12.06-22.56.52:764][543]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a StaticMeshComponent, therefore ' Target ' must have a connection
+[2014.12.06-22.56.52:873][543]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.56.52:887][543]LogBlueprint:Warning: [compiler] Warning [0524.10] Compile of Square failed. 1 Fatal Issue(s) 2 Warning(s) [in 124 ms]
+[2014.12.06-22.56.52:887][543]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Trackpiece' variable not found. Base class was probably changed.
+[2014.12.06-22.56.52:887][543]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Trackpiece" in 'Square_C'.
+Make sure 'Square_C' has been compiled for  Set Static Mesh 
+[2014.12.06-22.56.52:887][543]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a StaticMeshComponent, therefore ' Target ' must have a connection
+[2014.12.06-22.56.52:887][543]BlueprintEditorCompileResults:Warning: Warning [0524.10] Compile of Square failed. 1 Fatal Issue(s) 2 Warning(s) [in 124 ms]
+[2014.12.06-22.56.52:906][543]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.56.54:248][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-22.56.54:560][628]LogSavePackage: Save=310.366028ms
+[2014.12.06-22.56.54:561][628]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square9634AB064A413E980C712785DD1F04E6.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-22.57.02:228][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-22.57.02:257][132]LogSavePackage: Save=6.049454ms
+[2014.12.06-22.57.02:257][132]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square490665AC4A97C1D7D71C3899EF21E54D.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-22.57.03:264][199]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.57.25:690][701]BlueprintLog: New page: Compile Square
+[2014.12.06-22.57.25:703][701]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Trackpiece' variable not found. Base class was probably changed.
+[2014.12.06-22.57.25:703][701]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Trackpiece" in 'Square_C'.
+Make sure 'Square_C' has been compiled for  Set Static Mesh 
+[2014.12.06-22.57.25:703][701]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a StaticMeshComponent, therefore ' Target ' must have a connection
+[2014.12.06-22.57.25:808][701]LogBlueprint:Warning: [compiler] Warning [0557.02] Compile of Square failed. 1 Fatal Issue(s) 2 Warning(s) [in 107 ms]
+[2014.12.06-22.57.25:809][701]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Trackpiece' variable not found. Base class was probably changed.
+[2014.12.06-22.57.25:809][701]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Trackpiece" in 'Square_C'.
+Make sure 'Square_C' has been compiled for  Set Static Mesh 
+[2014.12.06-22.57.25:809][701]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a StaticMeshComponent, therefore ' Target ' must have a connection
+[2014.12.06-22.57.25:809][701]BlueprintEditorCompileResults:Warning: Warning [0557.02] Compile of Square failed. 1 Fatal Issue(s) 2 Warning(s) [in 107 ms]
+[2014.12.06-22.57.26:798][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-22.57.27:113][761]LogSavePackage: Save=313.006317ms
+[2014.12.06-22.57.27:113][761]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square96E29E2B4220B97B74786D9F71A277A2.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-22.57.34:554][268]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.57.34:569][268]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.57.42:216][661]LogLinker:Warning: Can't find file '/Game/Meshes/Piece_Cross'
+[2014.12.06-22.57.42:216][661]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Piece_Cross' while loading ../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset.
+[2014.12.06-22.57.42:217][661]LoadErrors:Error: Error /Game/Blueprints/Square : Can't find file for asset. /Game/Meshes/Piece_Cross
+[2014.12.06-22.57.42:217][661]LogLinker:Warning: Can't find file '/Game/Meshes/Piece_Cross'
+[2014.12.06-22.57.42:217][661]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Piece_Cross' while loading ../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset.
+[2014.12.06-22.57.50:362][195]BlueprintLog: New page: Compile Square
+[2014.12.06-22.57.50:379][195]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Trackpiece' variable not found. Base class was probably changed.
+[2014.12.06-22.57.50:380][195]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Trackpiece" in 'Square_C'.
+Make sure 'Square_C' has been compiled for  Set Static Mesh 
+[2014.12.06-22.57.50:380][195]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a StaticMeshComponent, therefore ' Target ' must have a connection
+[2014.12.06-22.57.50:493][195]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.57.50:508][195]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.57.50:523][195]LogBlueprint:Warning: [compiler] Warning [0581.74] Compile of Square failed. 1 Fatal Issue(s) 2 Warning(s) [in 146 ms]
+[2014.12.06-22.57.50:523][195]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Trackpiece' variable not found. Base class was probably changed.
+[2014.12.06-22.57.50:523][195]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Trackpiece" in 'Square_C'.
+Make sure 'Square_C' has been compiled for  Set Static Mesh 
+[2014.12.06-22.57.50:523][195]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a StaticMeshComponent, therefore ' Target ' must have a connection
+[2014.12.06-22.57.50:524][195]BlueprintEditorCompileResults:Warning: Warning [0581.74] Compile of Square failed. 1 Fatal Issue(s) 2 Warning(s) [in 146 ms]
+[2014.12.06-22.57.50:554][195]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.57.51:380][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-22.57.51:704][241]LogSavePackage: Save=322.466705ms
+[2014.12.06-22.57.51:704][241]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square9466BBAD4015033DA97273B526B451DD.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-22.57.54:553][379]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.57.55:578][443]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.58.01:223][814]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.58.31:238][837]LogSavePackage: Save=139.641815ms
+[2014.12.06-22.58.31:238][837]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Example_Map_Auto1711CAD084B6FFA2AE5A9A49348991436.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2014.12.06-22.58.31:245][837]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.216
+[2014.12.06-22.58.31:245][837]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.216
+[2014.12.06-22.58.31:253][837]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Piece_Angle] ([1] browsable assets)...
+[2014.12.06-22.58.31:266][837]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Piece_Angle.Piece_Angle]
+[2014.12.06-22.58.31:266][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Piece_Angle]
+[2014.12.06-22.58.31:611][837]LogSavePackage: Save=339.981659ms
+[2014.12.06-22.58.31:611][837]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Piece_Angle_Auto1DD5B97CF4EFB5D1454ABB7847696B727.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Meshes/Piece_Angle_Auto1.uasset'
+[2014.12.06-22.58.31:684][837]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Piece_Cross] ([1] browsable assets)...
+[2014.12.06-22.58.31:731][837]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Piece_Cross.Piece_Cross]
+[2014.12.06-22.58.31:731][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Piece_Cross]
+[2014.12.06-22.58.32:136][837]LogSavePackage: Save=399.060181ms
+[2014.12.06-22.58.32:136][837]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Piece_Cross_Auto1BD82093E4DE3E6C4740C6096EE1F4A5B.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Meshes/Piece_Cross_Auto1.uasset'
+[2014.12.06-22.58.32:147][837]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Piece_Halfline1] ([1] browsable assets)...
+[2014.12.06-22.58.32:160][837]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Piece_Halfline1.Piece_Halfline1]
+[2014.12.06-22.58.32:160][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Piece_Halfline1]
+[2014.12.06-22.58.32:547][837]LogSavePackage: Save=383.657379ms
+[2014.12.06-22.58.32:547][837]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Piece_Halfline1_Auto1DAC53A2242FCAA3E0F47D2A99AA527CC.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Meshes/Piece_Halfline1_Auto1.uasset'
+[2014.12.06-22.58.32:600][837]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Piece_Halfline2] ([1] browsable assets)...
+[2014.12.06-22.58.32:632][837]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Piece_Halfline2.Piece_Halfline2]
+[2014.12.06-22.58.32:632][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Piece_Halfline2]
+[2014.12.06-22.58.33:042][837]LogSavePackage: Save=402.965485ms
+[2014.12.06-22.58.33:042][837]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Piece_Halfline2_Auto139E0F8E64310D7DFAFA7A6A9495F9FB0.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Meshes/Piece_Halfline2_Auto1.uasset'
+[2014.12.06-22.58.33:054][837]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Piece_Line] ([1] browsable assets)...
+[2014.12.06-22.58.33:066][837]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Piece_Line.Piece_Line]
+[2014.12.06-22.58.33:066][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Piece_Line]
+[2014.12.06-22.58.33:070][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Piece_Line" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Meshes/Piece_Line_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.12.06-22.58.33:473][837]LogSavePackage: Save=401.954712ms
+[2014.12.06-22.58.33:473][837]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Piece_Line_Auto1C4FCCE09438F17A94937ABB933970DB6.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Meshes/Piece_Line_Auto1.uasset'
+[2014.12.06-22.58.33:552][837]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Square] ([1] browsable assets)...
+[2014.12.06-22.58.33:598][837]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Square.Square]
+[2014.12.06-22.58.33:598][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Square]
+[2014.12.06-22.58.33:602][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Blueprints/Square_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.12.06-22.58.33:975][837]LogSavePackage: Save=371.368164ms
+[2014.12.06-22.58.33:975][837]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square_Auto1AB42FC974E2DCE635776B4A585C07F2C.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Blueprints/Square_Auto1.uasset'
+[2014.12.06-22.58.33:977][837]LogFileHelpers: Auto-saving content packages took 2.732
+[2014.12.06-22.59.06:923][720]BlueprintLog: New page: Compile Square
+[2014.12.06-22.59.06:988][720]BlueprintEditorCompileResults: Info [0658.20] Compile of Square successful! [in 63 ms]
+[2014.12.06-22.59.07:994][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-22.59.08:311][784]LogSavePackage: Save=314.593903ms
+[2014.12.06-22.59.08:311][784]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square9134AB784E8B349E37866DAEB3B039D7.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-22.59.15:572][166]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.59.15:591][166]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.59.19:541][442]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.59.19:559][442]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.59.48:236][533]BlueprintLog: New page: Compile Square
+[2014.12.06-22.59.48:322][533]BlueprintEditorCompileResults: Info [0699.54] Compile of Square successful! [in 64 ms]
+[2014.12.06-22.59.49:151][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-22.59.49:465][586]LogSavePackage: Save=312.326019ms
+[2014.12.06-22.59.49:465][586]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square298F4C2D41FB4F44673FAB8F9E1D09F8.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-22.59.50:882][685]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-22.59.50:900][685]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.00.09:912][844]BlueprintLog: New page: Compile Square
+[2014.12.06-23.00.09:996][844]BlueprintEditorCompileResults: Info [0721.21] Compile of Square successful! [in 65 ms]
+[2014.12.06-23.00.10:709][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.00.11:023][889]LogSavePackage: Save=311.461853ms
+[2014.12.06-23.00.11:023][889]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/SquareB9DB78C64E80BF9CCDA71E89536D3615.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.00.12:892][982]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.06-23.00.12:894][982]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.06-23.00.12:947][982]LogPlayLevel: PIE:  Blueprint regeneration took 55 ms (1 blueprints)
+[2014.12.06-23.00.12:948][982]PIE: New page: PIE session: Example_Map (Dec 6, 2014, 1:00:12 PM)
+[2014.12.06-23.00.12:972][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023915s)
+[2014.12.06-23.00.12:973][982]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2014.12.06-23.00.12:973][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.025346s)
+[2014.12.06-23.00.13:010][982]LogWorld: Game class is 'MyGame_C'
+[2014.12.06-23.00.13:011][982]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-23.00.13:012][982]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.06-18.00.13
+[2014.12.06-23.00.13:031][982]LogWorld: Bringing up level for play took: 0.018161
+[2014.12.06-23.00.13:031][982]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.209
+[2014.12.06-23.00.13:952][ 57]LogBlueprintUserMessages: Hello
+[2014.12.06-23.00.14:922][141]LogBlueprintUserMessages: Hello
+[2014.12.06-23.00.16:114][246]LogBlueprintUserMessages: Hello
+[2014.12.06-23.00.16:967][320]LogBlueprintUserMessages: Hello
+[2014.12.06-23.00.20:461][628]LogBlueprintUserMessages: Hello
+[2014.12.06-23.00.22:176][780]LogBlueprintUserMessages: Hello
+[2014.12.06-23.00.23:259][875]LogBlueprintUserMessages: Hello
+[2014.12.06-23.00.24:804][  4]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4E999EB60
+[2014.12.06-23.01.17:193][701]BlueprintLog: New page: Compile Square
+[2014.12.06-23.01.17:263][701]BlueprintEditorCompileResults: Info [0788.48] Compile of Square successful! [in 67 ms]
+[2014.12.06-23.01.17:940][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.01.18:257][739]LogSavePackage: Save=315.022919ms
+[2014.12.06-23.01.18:257][739]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square15A523144F05BF00D4C7149422034DB4.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.01.21:513][834]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.06-23.01.21:516][834]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.06-23.01.21:568][834]LogPlayLevel: PIE:  Blueprint regeneration took 54 ms (1 blueprints)
+[2014.12.06-23.01.21:568][834]PIE: New page: PIE session: Example_Map (Dec 6, 2014, 1:01:21 PM)
+[2014.12.06-23.01.21:591][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022547s)
+[2014.12.06-23.01.21:592][834]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2014.12.06-23.01.21:592][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.023952s)
+[2014.12.06-23.01.21:631][834]LogWorld: Game class is 'MyGame_C'
+[2014.12.06-23.01.21:633][834]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-23.01.21:634][834]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.06-18.01.21
+[2014.12.06-23.01.21:634][834]LogWorld: Bringing up level for play took: 0.001163
+[2014.12.06-23.01.21:635][834]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.394
+[2014.12.06-23.01.25:799][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4CAACE660
+[2014.12.06-23.01.34:005][642]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.06-23.01.34:007][642]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.06-23.01.34:059][642]LogPlayLevel: PIE:  Blueprint regeneration took 54 ms (1 blueprints)
+[2014.12.06-23.01.34:060][642]PIE: New page: SIE session: Example_Map (Dec 6, 2014, 1:01:34 PM)
+[2014.12.06-23.01.34:081][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021413s)
+[2014.12.06-23.01.34:082][642]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2014.12.06-23.01.34:082][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022379s)
+[2014.12.06-23.01.34:083][642]LogSelection:Warning: PIE object was selected: "Square_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Square_C_2"
+[2014.12.06-23.01.34:124][642]LogWorld: Game class is 'MyGame_C'
+[2014.12.06-23.01.34:126][642]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-23.01.34:127][642]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.06-18.01.34
+[2014.12.06-23.01.34:128][642]LogWorld: Bringing up level for play took: 0.001134
+[2014.12.06-23.01.34:128][642]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.12.06-23.01.34:128][642]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.889
+[2014.12.06-23.01.34:180][642]LogSelection:Warning: PIE object was selected: "Square_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Square_C_2"
+[2014.12.06-23.01.35:328][700]LogEditorViewport: Clicking on Actor (LMB): Square_C (Square)
+[2014.12.06-23.01.35:328][700]LogSelection:Warning: PIE object was selected: "Square_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Square_C_2"
+[2014.12.06-23.01.36:083][745]LogEditorViewport: Clicking on Actor (LMB): Square_C (Square)
+[2014.12.06-23.01.36:083][745]LogSelection:Warning: PIE object was selected: "Square_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Square_C_2"
+[2014.12.06-23.01.37:185][796]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4F0F89120
+[2014.12.06-23.01.39:999][985]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.06-23.01.40:002][985]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.06-23.01.40:054][985]LogPlayLevel: PIE:  Blueprint regeneration took 54 ms (1 blueprints)
+[2014.12.06-23.01.40:054][985]PIE: New page: SIE session: Example_Map (Dec 6, 2014, 1:01:40 PM)
+[2014.12.06-23.01.40:075][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020756s)
+[2014.12.06-23.01.40:076][985]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2014.12.06-23.01.40:076][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022160s)
+[2014.12.06-23.01.40:077][985]LogSelection:Warning: PIE object was selected: "Square_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Square_C_2"
+[2014.12.06-23.01.40:115][985]LogWorld: Game class is 'MyGame_C'
+[2014.12.06-23.01.40:116][985]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-23.01.40:117][985]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.06-18.01.40
+[2014.12.06-23.01.40:117][985]LogWorld: Bringing up level for play took: 0.001135
+[2014.12.06-23.01.40:118][985]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.12.06-23.01.40:118][985]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.878
+[2014.12.06-23.01.40:127][985]LogSelection:Warning: PIE object was selected: "Square_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Square_C_2"
+[2014.12.06-23.01.43:036][204]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4EA067A60
+[2014.12.06-23.01.44:076][273]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.06-23.01.44:079][273]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.06-23.01.44:152][273]LogPlayLevel: PIE:  Blueprint regeneration took 75 ms (1 blueprints)
+[2014.12.06-23.01.44:152][273]PIE: New page: SIE session: Example_Map (Dec 6, 2014, 1:01:44 PM)
+[2014.12.06-23.01.44:175][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022932s)
+[2014.12.06-23.01.44:176][273]LogPlayLevel: PIE: World Init took: (0.001088s)
+[2014.12.06-23.01.44:177][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.024244s)
+[2014.12.06-23.01.44:177][273]LogSelection:Warning: PIE object was selected: "Square_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Square_C_2"
+[2014.12.06-23.01.44:219][273]LogWorld: Game class is 'MyGame_C'
+[2014.12.06-23.01.44:220][273]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-23.01.44:221][273]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.06-18.01.44
+[2014.12.06-23.01.44:222][273]LogWorld: Bringing up level for play took: 0.001133
+[2014.12.06-23.01.44:222][273]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.12.06-23.01.44:222][273]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.983
+[2014.12.06-23.01.44:231][273]LogSelection:Warning: PIE object was selected: "Square_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Square_C_2"
+[2014.12.06-23.01.45:307][347]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4EA0640E0
+[2014.12.06-23.01.47:127][472]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.06-23.01.47:130][472]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.06-23.01.47:202][472]LogPlayLevel: PIE:  Blueprint regeneration took 75 ms (1 blueprints)
+[2014.12.06-23.01.47:202][472]PIE: New page: PIE session: Example_Map (Dec 6, 2014, 1:01:47 PM)
+[2014.12.06-23.01.47:224][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021920s)
+[2014.12.06-23.01.47:225][472]LogPlayLevel: PIE: World Init took: (0.000857s)
+[2014.12.06-23.01.47:225][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.023126s)
+[2014.12.06-23.01.47:273][472]LogWorld: Game class is 'MyGame_C'
+[2014.12.06-23.01.47:274][472]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-23.01.47:275][472]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.06-18.01.47
+[2014.12.06-23.01.47:276][472]LogWorld: Bringing up level for play took: 0.001152
+[2014.12.06-23.01.47:276][472]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.036
+[2014.12.06-23.01.53:306][838]LogSelection:Warning: PIE object was selected: "Square_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Square_C_2"
+[2014.12.06-23.02.05:692][381]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4EA066700
+[2014.12.06-23.02.21:549][288]BlueprintLog: New page: Compile Square
+[2014.12.06-23.02.21:635][288]BlueprintEditorCompileResults: Info [0852.85] Compile of Square successful! [in 65 ms]
+[2014.12.06-23.02.22:238][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.02.22:554][322]LogSavePackage: Save=312.855896ms
+[2014.12.06-23.02.22:554][322]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/SquareAED23B7A49E7FBF7DEEA009CC1280100.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.02.24:232][389]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.06-23.02.24:235][389]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.06-23.02.24:308][389]LogPlayLevel: PIE:  Blueprint regeneration took 76 ms (1 blueprints)
+[2014.12.06-23.02.24:308][389]PIE: New page: PIE session: Example_Map (Dec 6, 2014, 1:02:24 PM)
+[2014.12.06-23.02.24:329][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020741s)
+[2014.12.06-23.02.24:331][389]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2014.12.06-23.02.24:331][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022092s)
+[2014.12.06-23.02.24:377][389]LogWorld: Game class is 'MyGame_C'
+[2014.12.06-23.02.24:378][389]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-23.02.24:379][389]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.06-18.02.24
+[2014.12.06-23.02.24:380][389]LogWorld: Bringing up level for play took: 0.001138
+[2014.12.06-23.02.24:380][389]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.141
+[2014.12.06-23.02.28:945][697]LogSelection:Warning: PIE object was selected: "Square_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Square_C_1"
+[2014.12.06-23.02.30:754][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4CB6B04A0
+[2014.12.06-23.02.43:612][582]BlueprintLog: New page: Compile Square
+[2014.12.06-23.02.43:703][582]BlueprintEditorCompileResults: Info [0874.92] Compile of Square successful! [in 67 ms]
+[2014.12.06-23.02.44:246][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.02.44:559][614]LogSavePackage: Save=311.285614ms
+[2014.12.06-23.02.44:559][614]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square011070E74523E0FB08ED4F8EEE62C9AA.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.02.47:235][729]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.06-23.02.47:238][729]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.06-23.02.47:312][729]LogPlayLevel: PIE:  Blueprint regeneration took 76 ms (1 blueprints)
+[2014.12.06-23.02.47:312][729]PIE: New page: PIE session: Example_Map (Dec 6, 2014, 1:02:47 PM)
+[2014.12.06-23.02.47:333][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020945s)
+[2014.12.06-23.02.47:334][729]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2014.12.06-23.02.47:334][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022285s)
+[2014.12.06-23.02.47:379][729]LogWorld: Game class is 'MyGame_C'
+[2014.12.06-23.02.47:380][729]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-23.02.47:381][729]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.06-18.02.47
+[2014.12.06-23.02.47:381][729]LogWorld: Bringing up level for play took: 0.001116
+[2014.12.06-23.02.47:382][729]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.142
+[2014.12.06-23.02.49:632][911]LogSelection:Warning: PIE object was selected: "Square_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Square_C_2"
+[2014.12.06-23.02.53:484][157]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4CA5F27A0
+[2014.12.06-23.03.21:090][779]BlueprintLog: New page: Compile Square
+[2014.12.06-23.03.21:169][779]BlueprintEditorCompileResults: Info [0912.38] Compile of Square successful! [in 64 ms]
+[2014.12.06-23.03.21:711][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.03.22:032][809]LogSavePackage: Save=318.562866ms
+[2014.12.06-23.03.22:032][809]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/SquareE7579A8E4361C6572461E1B90415C969.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.03.24:116][890]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.06-23.03.24:119][890]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.06-23.03.24:184][890]LogPlayLevel: PIE:  Blueprint regeneration took 68 ms (1 blueprints)
+[2014.12.06-23.03.24:184][890]PIE: New page: PIE session: Example_Map (Dec 6, 2014, 1:03:24 PM)
+[2014.12.06-23.03.24:207][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022532s)
+[2014.12.06-23.03.24:208][890]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2014.12.06-23.03.24:208][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.023837s)
+[2014.12.06-23.03.24:257][890]LogWorld: Game class is 'MyGame_C'
+[2014.12.06-23.03.24:260][890]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-23.03.24:262][890]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.06-18.03.24
+[2014.12.06-23.03.24:263][890]LogWorld: Bringing up level for play took: 0.002340
+[2014.12.06-23.03.24:264][890]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.024
+[2014.12.06-23.03.28:128][209]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4F110C540
+[2014.12.06-23.03.34:342][559]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.06-23.03.34:345][559]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.06-23.03.34:397][559]LogPlayLevel: PIE:  Blueprint regeneration took 54 ms (1 blueprints)
+[2014.12.06-23.03.34:397][559]PIE: New page: PIE session: Example_Map (Dec 6, 2014, 1:03:34 PM)
+[2014.12.06-23.03.34:420][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022316s)
+[2014.12.06-23.03.34:421][559]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2014.12.06-23.03.34:421][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.023645s)
+[2014.12.06-23.03.34:467][559]LogWorld: Game class is 'MyGame_C'
+[2014.12.06-23.03.34:468][559]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.06-23.03.34:469][559]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.06-18.03.34
+[2014.12.06-23.03.34:469][559]LogWorld: Bringing up level for play took: 0.001111
+[2014.12.06-23.03.34:470][559]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.769
+[2014.12.06-23.03.46:789][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4CB6B2DE0
+[2014.12.06-23.04.39:702][205]BlueprintLog: New page: Compile Square
+[2014.12.06-23.04.39:772][205]BlueprintEditorCompileResults: Info [0990.99] Compile of Square successful! [in 68 ms]
+[2014.12.06-23.04.40:518][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.04.40:833][250]LogSavePackage: Save=311.936615ms
+[2014.12.06-23.04.40:833][250]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square3B780AF04536F8D21F7F9D9215FDE13F.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.05.05:343][836]BlueprintLog: New page: Compile Square
+[2014.12.06-23.05.05:411][836]BlueprintEditorCompileResults: Info [1016.63] Compile of Square successful! [in 65 ms]
+[2014.12.06-23.05.40:060][135]BlueprintLog: New page: Compile Square
+[2014.12.06-23.05.40:183][135]BlueprintEditorCompileResults: Info [1051.40] Compile of Square successful! [in 100 ms]
+[2014.12.06-23.05.40:831][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.05.41:148][169]LogSavePackage: Save=314.441437ms
+[2014.12.06-23.05.41:148][169]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/SquareB458B6A947BF448916034282D8F498E3.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.05.50:439][754]BlueprintLog: New page: Compile Square
+[2014.12.06-23.05.50:509][754]BlueprintEditorCompileResults: Info [1061.72] Compile of Square successful! [in 67 ms]
+[2014.12.06-23.05.51:219][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.05.51:550][794]LogSavePackage: Save=326.717163ms
+[2014.12.06-23.05.51:550][794]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square927B43EF48CA3FD9ACF810AE745ABC8A.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.06.15:389][308]BlueprintLog: New page: Compile Square
+[2014.12.06-23.06.15:496][308]BlueprintEditorCompileResults: Info [1086.71] Compile of Square successful! [in 88 ms]
+[2014.12.06-23.06.16:280][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.06.16:598][351]LogSavePackage: Save=316.357422ms
+[2014.12.06-23.06.16:598][351]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/SquareD1E875CB4365507086E25F841CF924FC.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.06.31:483][160]BlueprintLog: New page: Compile Square
+[2014.12.06-23.06.31:582][160]BlueprintEditorCompileResults: Info [1102.80] Compile of Square successful! [in 87 ms]
+[2014.12.06-23.06.32:387][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.06.32:706][206]LogSavePackage: Save=315.473602ms
+[2014.12.06-23.06.32:706][206]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square4235C2024FF1DFB3EE4E6DB7DAE706D3.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.07.28:744][969]BlueprintLog: New page: Compile Square
+[2014.12.06-23.07.28:817][969]BlueprintEditorCompileResults: Info [1160.03] Compile of Square successful! [in 68 ms]
+[2014.12.06-23.07.29:377][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.07.29:694][999]LogSavePackage: Save=314.184845ms
+[2014.12.06-23.07.29:694][999]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/SquareC736540448D77F20D4855E8755DEEF0A.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.07.45:536][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Piece_Line)
+[2014.12.06-23.07.45:546][738]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.07.46:690][812]Cmd: DELETE
+[2014.12.06-23.07.46:690][812]Cmd: ACTOR DELETE
+[2014.12.06-23.07.46:690][812]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.06-23.07.46:706][812]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2014.12.06-23.08.16:054][638]LogEditorViewport: Clicking on Actor (LMB): Square_C (Square)
+[2014.12.06-23.08.46:218][659]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.08.46:238][659]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.09.33:494][131]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.09.33:516][131]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.09.33:552][131]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.09.33:572][131]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.09.45:935][940]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4F918A3E0
+[2014.12.06-23.09.46:168][940]LogSavePackage: Save=166.298416ms
+[2014.12.06-23.09.46:168][940]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Example_Map_Auto2AD4D0CC74B70D4BB2B26A3812F4B21B0.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Maps/Example_Map_Auto2.umap'
+[2014.12.06-23.09.46:175][940]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.258
+[2014.12.06-23.09.46:175][940]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.258
+[2014.12.06-23.09.46:184][940]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Square] ([1] browsable assets)...
+[2014.12.06-23.09.46:197][940]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Square.Square]
+[2014.12.06-23.09.46:197][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Square]
+[2014.12.06-23.09.46:200][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Blueprints/Square_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2014.12.06-23.09.46:548][940]LogSavePackage: Save=345.199799ms
+[2014.12.06-23.09.46:548][940]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square_Auto2EE8E74164F5FDC8A048B739E19863BD2.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Blueprints/Square_Auto2.uasset'
+[2014.12.06-23.09.46:565][940]LogFileHelpers: Auto-saving content packages took 0.391
+[2014.12.06-23.09.55:809][593]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.11.21:221][285]LogEditorTransaction: Undo Modify Component(s)
+[2014.12.06-23.11.32:300][  9]LogEditorTransaction: Undo Modify Component(s)
+[2014.12.06-23.11.47:124][945]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.11.48:088][ 13]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.11.48:762][ 60]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.11.57:707][659]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.00:500][862]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.00:578][862]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.02:819][ 15]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.13:071][690]LogEditorTransaction: Undo Modify Component(s)
+[2014.12.06-23.12.13:086][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.SceneComponent_87) Not registered. Aborting.
+[2014.12.06-23.12.13:086][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.StaticMeshComponent_176) Not registered. Aborting.
+[2014.12.06-23.12.13:086][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.StaticMeshComponent_177) Not registered. Aborting.
+[2014.12.06-23.12.13:086][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.ArrowComponent_9) Not registered. Aborting.
+[2014.12.06-23.12.13:086][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.BoxComponent_11) Not registered. Aborting.
+[2014.12.06-23.12.13:790][720]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.16:442][929]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.16:460][929]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.16:492][929]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.16:509][929]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.20:228][194]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.20:307][194]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.28:830][806]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.28:849][806]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.28:881][806]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.28:898][806]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.31:440][985]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.31:519][985]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.12.45:552][969]LogEditorTransaction: Undo Modify Component(s)
+[2014.12.06-23.12.46:786][ 34]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.13.02:716][146]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.13.02:735][146]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.13.02:768][146]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.13.02:785][146]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.13.09:235][578]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.13.09:269][578]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.13.15:238][922]BlueprintLog: New page: Compile Square
+[2014.12.06-23.13.15:341][922]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.13.15:359][922]BlueprintEditorCompileResults: Info [1506.57] Compile of Square successful! [in 104 ms]
+[2014.12.06-23.13.15:384][922]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.13.16:150][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.13.16:470][970]LogSavePackage: Save=317.252960ms
+[2014.12.06-23.13.16:470][970]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square31A6832C4FC78C36396703891E4880F3.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.13.29:648][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.13.29:672][891]LogSavePackage: Save=10.283779ms
+[2014.12.06-23.13.29:672][891]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square238C47A04A31852BB930EB8DF7996C49.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.13.35:012][167]LogEditorViewport: Clicking on Actor (LMB): Square_C (Square)
+[2014.12.06-23.13.41:496][574]LogEditorViewport: Clicking on Actor (LMB): Square_C (Square2)
+[2014.12.06-23.13.42:177][618]Cmd: DELETE
+[2014.12.06-23.13.42:177][618]Cmd: ACTOR DELETE
+[2014.12.06-23.13.42:178][618]LogEditorActor: Deleted Actor: Square_C
+[2014.12.06-23.13.42:194][618]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2014.12.06-23.14.31:491][240]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.14.33:954][423]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.14.33:969][423]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.14.37:579][640]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.14.38:313][699]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.14.41:489][872]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.15.15:808][419]LogEditorTransaction: Undo Modify Component(s)
+[2014.12.06-23.15.17:969][532]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.15.22:477][864]LogEditorTransaction: Undo Modify Component(s)
+[2014.12.06-23.15.24:663][ 34]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.15.25:692][112]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.15.27:688][262]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.15.39:806][ 29]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.15.50:779][816]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.16.31:087][497]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.16.31:106][497]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.16.33:851][740]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.17.00:817][944]LogEditorTransaction: Undo Modify Component(s)
+[2014.12.06-23.17.02:389][ 56]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.17.03:433][139]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.17.22:991][644]LogEditorTransaction: Undo Modify Component(s)
+[2014.12.06-23.17.25:159][809]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.17.27:135][972]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.17.31:837][294]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.17.33:682][439]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.17.39:544][840]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.17.44:061][188]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.17.51:014][721]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.18.45:760][643]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.18.45:778][643]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.18.47:383][775]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.18.50:061][994]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.18.51:494][104]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.18.53:248][245]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.18.54:572][356]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.18.55:885][462]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.18.56:797][533]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.19.30:390][930]BlueprintLog: New page: Compile Square
+[2014.12.06-23.19.30:401][930]LogClass:Warning: Type mismatch in Left of Square_C - Previous (ObjectProperty) Current(BoolProperty) for package:  FObjectReader
+[2014.12.06-23.19.30:401][930]LogClass:Warning: Type mismatch in Right of Square_C - Previous (ObjectProperty) Current(BoolProperty) for package:  FObjectReader
+[2014.12.06-23.19.30:401][930]LogClass:Warning: Type mismatch in Top of Square_C - Previous (ObjectProperty) Current(BoolProperty) for package:  FObjectReader
+[2014.12.06-23.19.30:401][930]LogClass:Warning: Type mismatch in Bottom of Square_C - Previous (ObjectProperty) Current(BoolProperty) for package:  FObjectReader
+[2014.12.06-23.19.30:403][930]LogClass:Warning: Type mismatch in Left of Square_C - Previous (ObjectProperty) Current(BoolProperty) for package:  FObjectReader
+[2014.12.06-23.19.30:403][930]LogClass:Warning: Type mismatch in Right of Square_C - Previous (ObjectProperty) Current(BoolProperty) for package:  FObjectReader
+[2014.12.06-23.19.30:403][930]LogClass:Warning: Type mismatch in Top of Square_C - Previous (ObjectProperty) Current(BoolProperty) for package:  FObjectReader
+[2014.12.06-23.19.30:403][930]LogClass:Warning: Type mismatch in Bottom of Square_C - Previous (ObjectProperty) Current(BoolProperty) for package:  FObjectReader
+[2014.12.06-23.19.30:494][930]BlueprintEditorCompileResults: Info [1881.71] Compile of Square successful! [in 98 ms]
+[2014.12.06-23.19.31:204][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.19.31:525][974]LogSavePackage: Save=317.227753ms
+[2014.12.06-23.19.31:525][974]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square9A113F2B4D0D6868882C3CAB4C845557.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.19.50:015][190]LogSavePackage: Save=138.333984ms
+[2014.12.06-23.19.50:015][190]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Example_Map_Auto3CB4C323044C23845036CC0BEFA913DD8.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Maps/Example_Map_Auto3.umap'
+[2014.12.06-23.19.50:022][190]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.211
+[2014.12.06-23.19.50:022][190]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.211
+[2014.12.06-23.19.50:030][190]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Square] ([1] browsable assets)...
+[2014.12.06-23.19.50:043][190]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Square.Square]
+[2014.12.06-23.19.50:043][190]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Square]
+[2014.12.06-23.19.50:045][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Blueprints/Square_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2014.12.06-23.19.50:407][190]LogSavePackage: Save=359.356628ms
+[2014.12.06-23.19.50:407][190]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square_Auto38C7DECB64FB664171CC9A9B6671A3A8E.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Blueprints/Square_Auto3.uasset'
+[2014.12.06-23.19.50:428][190]LogFileHelpers: Auto-saving content packages took 0.406
+[2014.12.06-23.21.21:522][801]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.23.31:096][385]BlueprintLog: New page: Compile Square
+[2014.12.06-23.23.31:213][385]BlueprintEditorCompileResults: Info [2122.43] Compile of Square successful! [in 96 ms]
+[2014.12.06-23.23.31:832][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.23.32:154][421]LogSavePackage: Save=319.938721ms
+[2014.12.06-23.23.32:154][421]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/SquareED240AEC48CF35BB568AA2ACF2F0BD4E.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.23.40:357][974]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.23.52:901][773]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.23.56:607][  8]LogEditorTransaction: Undo Move Nodes
+[2014.12.06-23.24.18:455][504]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.24.30:508][365]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.27.33:601][671]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.29.11:686][799]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.29.11:701][799]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.29.50:835][666]LogSavePackage: Save=142.614639ms
+[2014.12.06-23.29.50:835][666]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Example_Map_Auto4667874D1405FF2805CA65FB73FB8DD7E.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Maps/Example_Map_Auto4.umap'
+[2014.12.06-23.29.50:842][666]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.220
+[2014.12.06-23.29.50:842][666]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.220
+[2014.12.06-23.29.50:851][666]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Square] ([1] browsable assets)...
+[2014.12.06-23.29.50:865][666]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Square.Square]
+[2014.12.06-23.29.50:865][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Square]
+[2014.12.06-23.29.50:868][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Blueprints/Square_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2014.12.06-23.29.51:223][666]LogSavePackage: Save=352.403717ms
+[2014.12.06-23.29.51:223][666]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Square_Auto456DBB8984EED4BDAEB1885853259C731.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/Autosaves/Game/Blueprints/Square_Auto4.uasset'
+[2014.12.06-23.29.51:227][666]LogFileHelpers: Auto-saving content packages took 0.384
+[2014.12.06-23.31.27:020][ 61]BlueprintLog: New page: Compile Square
+[2014.12.06-23.31.27:126][ 61]BlueprintEditorCompileResults: Info [2598.34] Compile of Square successful! [in 99 ms]
+[2014.12.06-23.31.27:866][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.31.28:192][102]LogSavePackage: Save=322.154388ms
+[2014.12.06-23.31.28:192][102]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/SquareC42BA26A40D05DCABB81D0A6D8144763.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.32.06:333][476]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.32.32:649][369]BlueprintLog: New page: Compile Square
+[2014.12.06-23.32.32:756][369]BlueprintEditorCompileResults: Info [2663.97] Compile of Square successful! [in 100 ms]
+[2014.12.06-23.32.33:415][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Square" FILE="../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset" SILENT=true
+[2014.12.06-23.32.33:736][408]LogSavePackage: Save=318.813263ms
+[2014.12.06-23.32.33:736][408]LogSavePackage: Moving '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Saved/SquareD4C23881416B673AA189589585DFF1B8.tmp' to '../../../../../../Users/Esther/Desktop/PuzzleTest/PuzzleTest/Content/Blueprints/Square.uasset'
+[2014.12.06-23.34.33:741][781]LogBlueprint:Warning: Could not find local variable 'Trigger Booleans'!
+[2014.12.06-23.34.33:863][782]LogBlueprint:Warning: Could not find local variable 'Trigger Booleans'!
+[2014.12.06-23.34.34:040][783]LogBlueprint:Warning: Could not find local variable 'Trigger Booleans'!
+[2014.12.06-23.34.34:376][797]LogBlueprint:Warning: Could not find local variable 'Trigger Booleans'!
+[2014.12.06-23.34.34:509][799]LogBlueprint:Warning: Could not find local variable 'Trigger Booleans'!
+[2014.12.06-23.34.34:645][802]LogBlueprint:Warning: Could not find local variable 'Trigger Booleans'!
+[2014.12.06-23.34.34:777][806]LogBlueprint:Warning: Could not find local variable 'Trigger Booleans'!
+[2014.12.06-23.34.34:940][813]LogBlueprint:Warning: Could not find local variable 'Trigger Booleans'!
+[2014.12.06-23.35.25:808][197]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.36.22:869][969]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-23.36.30:170][455]LogBlueprint:Error: [compiler] Error  Add BoxComponent  cannot be placed in function graph
+[2014.12.06-23.36.30:170][455]BlueprintLog: New page: Collapse to Function
+[2014.12.06-23.36.30:170][455]BlueprintLog:Error: Error  Add BoxComponent  cannot be placed in function graph
+[2014.12.06-23.36.30:187][455]LogBlueprint:Warning: [compiler] Warning [2901.40] Compile of  failed. 1 Fatal Issue(s) 0 Warning(s) [in 14 ms]
+[2014.12.06-23.36.42:103][216]LogBlueprint:Error: [compiler] Error  Add BoxComponent  cannot be placed in macro graph
+[2014.12.06-23.36.42:103][216]BlueprintLog: New page: Collapse to Macro
+[2014.12.06-23.36.42:103][216]BlueprintLog:Error: Error  Add BoxComponent  cannot be placed in macro graph
+[2014.12.06-23.36.42:138][216]LogBlueprint:Warning: [compiler] Warning [2913.35] Compile of  failed. 1 Fatal Issue(s) 0 Warning(s) [in 14 ms]
+[2014.12.06-23.37.21:807][  3]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.06-23.37.21:906][  3]LogCrashTracker: 
+
+
+[2014.12.06-23.37.28:981][  3]LogCrashTracker: 
+
+
+[2014.12.06-23.37.28:981][  3]LogWindows: === Critical error: ===
+Assertion failed: GraphNodes.Num() == 1 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Editor\UnrealEd\Private\Kismet2\BlueprintEditorUtils.cpp] [Line: 3246] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffabe2f606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa8522f6d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa83b60e8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa8399182) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffaa48f40eb) + 0 bytes [UnknownFile:0]
+UE4Editor-BlueprintGraph.dll!UnknownFunction (0x00007ffaa2a6c943) + 0 bytes [UnknownFile:0]
+UE4Editor-BlueprintGraph.dll!UnknownFunction (0x00007ffaa2a635d2) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa2123bcb) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa1fd9a85) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa1fdc51c) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa20ec4c1) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa20e6aea) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa21912ef) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa2163ec4) + 0 bytes [UnknownFile:0]
+UE4Editor-GraphEditor.dll!UnknownFunction (0x00007ffaa215c24f) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffaaa1597bc) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffaaa117347) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffaaa1bb2e0) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffaaa1ac226) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa848ea0d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa847a1eb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa848fbab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa8476ce2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffac0812434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffac0812297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffaa8490066) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff77eeccbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff77eec089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff77eec090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff77eece3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff77eecf319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffabe7316ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffac0bd4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffac0bd4409) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.06-23.37.29:179][  3]LogExit: Executing StaticShutdownAfterError
+[2014.12.06-23.37.29:201][  3]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.06-23.37.29:201][  3]Log file closed, 12/06/14 18:37:29
