@@ -1,0 +1,44 @@
+﻿Log file open, 12/05/14 00:01:29
+LogInit:Display: Running engine for game: Clockwork
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: H:/Programs/Unreal Engine/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.05-06.01.29:172][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.05-06.01.29:219][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.05-06.01.29:389][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.05-06.01.29:402][  0]LogInit: Object subsystem initialized
+[2014.12.05-06.01.29:405][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.05-06.01.29:405][  0]LogConsoleResponse:Warning:   Found in ini file 'H:/Projects/Unreal/Clockwork/Clockwork/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.05-06.01.29:405][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2014.12.05-06.01.29:405][  0]LogConsoleResponse:Warning:   Found in ini file 'H:/Projects/Unreal/Clockwork/Clockwork/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.05-06.01.29:406][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.05-06.01.29:406][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.05-06.01.29:406][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.05-06.01.29:415][  0]LogInit: Computer: EVERETT-PC
+[2014.12.05-06.01.29:415][  0]LogInit: User: Administrator
+[2014.12.05-06.01.29:415][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.12.05-06.01.29:415][  0]LogInit: High frequency timer resolution =3.527490 MHz
+[2014.12.05-06.01.29:415][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2014.12.05-06.01.29:416][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.05-06.01.29:416][  0]LogMemory: Process Physical Memory: 50.13 MB used, 50.13 MB peak
+[2014.12.05-06.01.29:416][  0]LogMemory: Process Virtual Memory: 26.08 MB used, 26.08 MB peak
+[2014.12.05-06.01.29:416][  0]LogMemory: Physical Memory: 4092.45 MB used, 8097.98 MB total
+[2014.12.05-06.01.29:416][  0]LogMemory: Virtual Memory: 265.64 MB used, 8388608.00 MB total
+[2014.12.05-06.01.29:581][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2014.12.05-06.01.29:581][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.12.05-06.01.29:581][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.05-06.01.29:591][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.05-06.01.29:606][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.05-06.01.30:072][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.05-06.01.30:281][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.05-06.01.39:694][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.05-06.01.40:747][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.05-06.01.40:876][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.05-06.01.41:492][  0]LogDerivedDataCache: Loaded boot cache 0.62s 39MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.05-06.01.41:492][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot

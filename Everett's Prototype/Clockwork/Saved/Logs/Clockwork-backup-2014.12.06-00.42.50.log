@@ -1,0 +1,606 @@
+﻿Log file open, 12/05/14 23:57:36
+LogInit:Display: Running engine for game: Clockwork
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: H:/Programs/Unreal Engine/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.06-05.57.36:204][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.06-05.57.36:245][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.06-05.57.36:485][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.06-05.57.36:507][  0]LogInit: Object subsystem initialized
+[2014.12.06-05.57.36:509][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.06-05.57.36:509][  0]LogConsoleResponse:Warning:   Found in ini file 'H:/Projects/Unreal/Clockwork/Clockwork/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.06-05.57.36:510][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2014.12.06-05.57.36:510][  0]LogConsoleResponse:Warning:   Found in ini file 'H:/Projects/Unreal/Clockwork/Clockwork/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.06-05.57.36:510][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.06-05.57.36:510][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.06-05.57.36:510][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.06-05.57.36:519][  0]LogInit: Computer: EVERETT-PC
+[2014.12.06-05.57.36:519][  0]LogInit: User: Administrator
+[2014.12.06-05.57.36:519][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.12.06-05.57.36:519][  0]LogInit: High frequency timer resolution =3.527500 MHz
+[2014.12.06-05.57.36:519][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2014.12.06-05.57.36:519][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.06-05.57.36:519][  0]LogMemory: Process Physical Memory: 50.54 MB used, 50.54 MB peak
+[2014.12.06-05.57.36:519][  0]LogMemory: Process Virtual Memory: 26.51 MB used, 26.62 MB peak
+[2014.12.06-05.57.36:519][  0]LogMemory: Physical Memory: 5016.14 MB used, 8097.98 MB total
+[2014.12.06-05.57.36:519][  0]LogMemory: Virtual Memory: 268.43 MB used, 8388608.00 MB total
+[2014.12.06-05.57.36:711][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2014.12.06-05.57.36:711][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.12.06-05.57.36:711][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.06-05.57.36:756][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.06-05.57.36:802][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.06-05.57.37:695][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.06-05.57.37:894][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.06-05.57.48:176][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-05.57.49:651][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-05.57.49:853][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.06-05.57.50:467][  0]LogDerivedDataCache: Loaded boot cache 0.61s 35MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.06-05.57.50:467][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.06-05.57.50:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/Unreal/Clockwork/Clockwork/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.06-05.57.50:467][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.06-05.57.50:573][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.06-05.57.50:585][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.06-05.57.51:049][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.06-05.57.51:376][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.06-05.57.51:376][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.06-05.57.52:197][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.06-05.57.52:438][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.06-05.57.55:694][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.06-05.57.56:433][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for H:/Projects/Unreal/Clockwork/Clockwork/Binaries/Win64. Error: 0
+[2014.12.06-05.57.57:012][  0]SourceControl: Info Source control is disabled
+[2014.12.06-05.57.57:012][  0]SourceControl: Info Source control is disabled
+[2014.12.06-05.57.57:033][  0]SourceControl: Info Source control is disabled
+[2014.12.06-05.57.57:784][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.06-05.57.57:784][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2014.12.06-05.57.58:015][  0]LogEngine: Initializing Engine...
+[2014.12.06-05.57.58:406][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.06-05.57.58:542][  0]LogInit: FAudioDevice initialized.
+[2014.12.06-05.57.58:649][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.06-05.57.58:714][  0]LogDerivedDataCache: Saved boot cache 0.06s 35MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.06-05.57.58:730][  0]LogInit: Texture streaming: Enabled
+[2014.12.06-05.57.58:921][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.06-05.57.58:921][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.06-05.57.58:923][  0]LogAnalytics: SetUserId e19bf7bf8704ea0bd99cb20a9b5cc527
+[2014.12.06-05.57.58:923][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.06-05.57.58:971][  0]LogInit: Transaction tracking system initialized
+[2014.12.06-05.57.59:755][  0]BlueprintLog: New page: Editor Load
+[2014.12.06-05.57.59:986][  0]LogAssetRegistry: FAssetRegistry took 0.0164 seconds to start up
+[2014.12.06-05.57.59:989][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.06-05.58.02:518][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-05.58.03:280][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-05.58.04:059][  0]LogConsoleResponse:Display: 
+[2014.12.06-05.58.04:574][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.06-05.58.05:637][  0]SourceControl: Info Source control is disabled
+[2014.12.06-05.58.05:637][  0]Cmd: MAP LOAD FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/Levels/Test_1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.06-05.58.05:639][  0]LightingResults: New page: Lighting Build
+[2014.12.06-05.58.05:662][  0]MapCheck: New page: Map Check
+[2014.12.06-05.58.05:662][  0]LightingResults: New page: Lighting Build
+[2014.12.06-05.58.05:688][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013C56700
+[2014.12.06-05.58.09:121][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.06-05.58.09:121][  0]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-05.58.09:121][  0]Cmd: MAP CHECKDEP
+[2014.12.06-05.58.09:122][  0]MapCheck: New page: Test_1 - Dec 5, 2014, 5:58:09 PM
+[2014.12.06-05.58.09:337][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 214.874ms to complete.
+[2014.12.06-05.58.09:337][  0]LogFileHelpers: Loading map 'Test_1' took 3.701
+[2014.12.06-05.58.09:531][  0]LogCollectionManager: Loaded 0 collections in 0.002080 seconds
+[2014.12.06-05.58.09:801][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.06-05.58.09:814][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.06-05.58.09:874][  0]LogLoad: Full Startup: 36.17 seconds (BP compile: 0.06 seconds)
+[2014.12.06-05.58.10:223][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/models'
+[2014.12.06-05.58.10:416][  0]LogRenderer:Warning: Reallocating scene render targets to support 1504x896.
+[2014.12.06-05.58.12:020][  5]LogAssetRegistry: Asset discovery search completed in 12.0510 seconds
+[2014.12.06-05.58.40:670][384]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-05.58.40:671][384]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 5:58:40 PM)
+[2014.12.06-05.58.40:681][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009699s)
+[2014.12.06-05.58.40:682][384]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2014.12.06-05.58.40:684][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.012682s)
+[2014.12.06-05.58.40:749][384]LogWorld: Game class is 'GameMode'
+[2014.12.06-05.58.40:751][384]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-05.58.40:755][384]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.05-23.58.40
+[2014.12.06-05.58.40:756][384]LogWorld: Bringing up level for play took: 0.004261
+[2014.12.06-05.58.40:757][384]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.503
+[2014.12.06-05.58.46:400][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001372DC60
+[2014.12.06-05.59.11:688][493]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-05.59.11:689][493]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 5:59:11 PM)
+[2014.12.06-05.59.11:697][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007862s)
+[2014.12.06-05.59.11:698][493]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2014.12.06-05.59.11:698][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.008931s)
+[2014.12.06-05.59.11:730][493]LogWorld: Game class is 'GameMode'
+[2014.12.06-05.59.11:732][493]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-05.59.11:736][493]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.05-23.59.11
+[2014.12.06-05.59.11:737][493]LogWorld: Bringing up level for play took: 0.005063
+[2014.12.06-05.59.11:738][493]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 0.479
+[2014.12.06-05.59.21:569][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000104EC900
+[2014.12.06-05.59.53:911][726]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-05.59.53:911][726]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 5:59:53 PM)
+[2014.12.06-05.59.53:920][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008304s)
+[2014.12.06-05.59.53:920][726]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2014.12.06-05.59.53:921][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.009458s)
+[2014.12.06-05.59.53:958][726]LogWorld: Game class is 'GameMode'
+[2014.12.06-05.59.53:960][726]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-05.59.53:964][726]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.05-23.59.53
+[2014.12.06-05.59.53:965][726]LogWorld: Bringing up level for play took: 0.005108
+[2014.12.06-05.59.53:966][726]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 0.707
+[2014.12.06-06.00.19:553][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001052B100
+[2014.12.06-06.02.07:966][676]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/particles'
+[2014.12.06-06.02.08:188][690]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/textures'
+[2014.12.06-06.02.09:070][705]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/textures/HDR'
+[2014.12.06-06.02.20:081][750]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Projects/Unreal/Clockwork/Content/Textures/Circus_Backstage_3k.hdr)
+[2014.12.06-06.02.22:874][750]LogTexture:Display: Building textures: Circus_Backstage_3k (RGBA16F)
+[2014.12.06-06.03.03:452][750]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.12.06-06.03.03:452][750]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/textures/HDR'
+[2014.12.06-06.03.15:304][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere2)
+[2014.12.06-06.03.15:319][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.03.25:036][909]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials'
+[2014.12.06-06.03.26:932][949]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.03.26:952][949]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.06-06.03.27:062][949]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.06-06.03.27:062][949]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.12.06-06.03.27:062][949]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.06-06.03.27:062][949]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.12.06-06.03.27:080][949]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.03.27:106][949]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.12.06-06.03.27:109][949]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling.
+[2014.12.06-06.03.30:412][ 17]MaterialEditorStats: Info Base pass shader without light map: 23 instructions
+[2014.12.06-06.03.30:412][ 17]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.03.30:412][ 17]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.12.06-06.03.31:963][ 61]LogMaterialEditor: Applying material HDR_Background
+[2014.12.06-06.03.33:693][ 61]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.03.33:807][ 61]LogMaterial: Missing cached shader map for material HDR_Background, compiling.
+[2014.12.06-06.03.33:828][ 61]LogMaterial: Missing cached shader map for material HDR_Background, compiling.
+[2014.12.06-06.03.33:836][ 61]LogMaterial: 0.004473 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-06.03.34:562][ 74]MaterialEditorStats: Info Base pass shader without light map: 48 instructions
+[2014.12.06-06.03.34:563][ 74]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.03.34:563][ 74]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.12.06-06.03.38:887][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere2)
+[2014.12.06-06.03.38:900][257]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.03.39:291][272]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2014.12.06-06.03.50:375][844]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.03.50:376][844]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:03:50 PM)
+[2014.12.06-06.03.50:383][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007060s)
+[2014.12.06-06.03.50:384][844]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2014.12.06-06.03.50:384][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.008309s)
+[2014.12.06-06.03.50:418][844]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.03.50:419][844]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.03.50:423][844]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.03.50
+[2014.12.06-06.03.50:424][844]LogWorld: Bringing up level for play took: 0.003878
+[2014.12.06-06.03.50:425][844]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.839
+[2014.12.06-06.04.10:968][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F45E2A0
+[2014.12.06-06.04.10:969][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015278AE0
+[2014.12.06-06.04.13:056][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (board_inside)
+[2014.12.06-06.04.13:070][454]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.14:545][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (space_test74)
+[2014.12.06-06.04.14:558][509]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.14:979][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (board_inside)
+[2014.12.06-06.04.14:992][531]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.18:051][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (space_test10)
+[2014.12.06-06.04.18:064][647]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.18:814][688]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test18)
+[2014.12.06-06.04.18:826][688]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.19:366][716]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test58)
+[2014.12.06-06.04.19:379][716]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.19:985][748]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test66)
+[2014.12.06-06.04.19:998][748]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.20:692][785]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test70)
+[2014.12.06-06.04.20:705][785]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.21:184][810]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test50)
+[2014.12.06-06.04.21:199][810]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.21:721][836]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test54)
+[2014.12.06-06.04.21:734][836]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.22:668][886]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test52)
+[2014.12.06-06.04.22:682][886]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.23:713][941]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test44)
+[2014.12.06-06.04.23:728][941]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.24:741][995]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test36)
+[2014.12.06-06.04.24:756][995]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.25:780][ 50]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test28)
+[2014.12.06-06.04.25:795][ 50]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.26:286][ 74]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test24)
+[2014.12.06-06.04.26:303][ 74]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.26:904][104]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test12)
+[2014.12.06-06.04.26:919][104]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.27:476][131]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test8)
+[2014.12.06-06.04.27:491][131]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.34:689][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (board_base)
+[2014.12.06-06.04.34:703][452]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.37:124][577]Cmd: TRANSACTION UNDO
+[2014.12.06-06.04.37:124][577]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.06-06.04.37:141][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.37:637][584]Cmd: TRANSACTION UNDO
+[2014.12.06-06.04.37:637][584]LogEditorTransaction: Undo Replace component used material
+[2014.12.06-06.04.37:657][584]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.39:888][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (board_base)
+[2014.12.06-06.04.39:904][644]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.46:285][979]Cmd: TRANSACTION UNDO
+[2014.12.06-06.04.46:285][979]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.06-06.04.46:301][979]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.46:846][987]Cmd: TRANSACTION UNDO
+[2014.12.06-06.04.46:846][987]LogEditorTransaction: Undo Replace component used material
+[2014.12.06-06.04.46:865][987]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.49:764][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (space_test24)
+[2014.12.06-06.04.49:778][ 71]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.51:098][130]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (space_test8)
+[2014.12.06-06.04.51:111][130]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.51:816][164]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test86)
+[2014.12.06-06.04.51:829][164]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.53:053][232]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test13)
+[2014.12.06-06.04.53:066][232]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.53:561][257]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test24)
+[2014.12.06-06.04.53:574][257]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.54:417][301]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test10)
+[2014.12.06-06.04.54:431][301]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.54:626][309]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test53)
+[2014.12.06-06.04.54:640][309]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.55:421][350]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test58)
+[2014.12.06-06.04.55:435][350]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.55:656][359]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test59)
+[2014.12.06-06.04.55:670][359]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.57:208][444]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test36)
+[2014.12.06-06.04.57:222][444]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.57:760][472]Cmd: TRANSACTION UNDO
+[2014.12.06-06.04.57:760][472]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.06-06.04.57:774][472]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.58:250][482]Cmd: TRANSACTION UNDO
+[2014.12.06-06.04.58:250][482]LogEditorTransaction: Undo Move Actors
+[2014.12.06-06.04.58:268][482]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.59:190][511]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test36)
+[2014.12.06-06.04.59:207][511]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.04.59:676][523]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.00:206][538]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test85)
+[2014.12.06-06.05.00:226][538]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.00:654][549]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test36)
+[2014.12.06-06.05.00:671][549]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.01:800][598]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test80)
+[2014.12.06-06.05.01:817][598]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.02:156][614]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test52)
+[2014.12.06-06.05.02:171][614]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.02:788][645]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test54)
+[2014.12.06-06.05.02:802][645]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.03:233][665]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test69)
+[2014.12.06-06.05.03:248][665]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.04:518][732]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test70)
+[2014.12.06-06.05.04:533][732]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.05:028][756]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test61)
+[2014.12.06-06.05.05:043][756]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.09:898][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere2)
+[2014.12.06-06.05.09:912][974]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.20:620][566]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (board_base)
+[2014.12.06-06.05.20:634][566]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.23:816][717]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.05.23:817][717]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:05:23 PM)
+[2014.12.06-06.05.23:825][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007976s)
+[2014.12.06-06.05.23:826][717]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2014.12.06-06.05.23:826][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.009050s)
+[2014.12.06-06.05.23:861][717]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.05.23:862][717]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.05.23:867][717]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.05.23
+[2014.12.06-06.05.23:867][717]LogWorld: Bringing up level for play took: 0.004552
+[2014.12.06-06.05.23:868][717]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 0.602
+[2014.12.06-06.05.35:877][586]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.35:969][587]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B2E98A0
+[2014.12.06-06.05.45:491][128]Cmd: TRANSACTION UNDO
+[2014.12.06-06.05.45:491][128]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2014.12.06-06.05.45:505][128]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.46:195][143]Cmd: TRANSACTION UNDO
+[2014.12.06-06.05.46:195][143]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.06-06.05.46:210][143]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.46:668][156]Cmd: TRANSACTION UNDO
+[2014.12.06-06.05.46:668][156]LogEditorTransaction: Undo Replace component used material
+[2014.12.06-06.05.46:707][156]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.47:832][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (board_base)
+[2014.12.06-06.05.47:849][186]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.50:120][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (space_test74)
+[2014.12.06-06.05.50:133][249]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.53:750][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (space_test30)
+[2014.12.06-06.05.53:764][374]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.57:505][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (space_test78)
+[2014.12.06-06.05.57:518][513]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.05.58:152][534]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (space_test64)
+[2014.12.06-06.05.58:165][534]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.06.00:993][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (space_test28)
+[2014.12.06-06.06.01:008][635]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.06.06:399][905]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.06.06:400][905]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:06:06 PM)
+[2014.12.06-06.06.06:408][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008009s)
+[2014.12.06-06.06.06:409][905]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2014.12.06-06.06.06:409][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.008972s)
+[2014.12.06-06.06.06:445][905]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.06.06:447][905]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.06.06:451][905]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.06.06
+[2014.12.06-06.06.06:452][905]LogWorld: Bringing up level for play took: 0.004510
+[2014.12.06-06.06.06:453][905]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.814
+[2014.12.06-06.06.19:829][889]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.06.19:917][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001052AF20
+[2014.12.06-06.06.20:825][941]LogEditorViewport: Clicking on Actor (LMB): Emitter (dust)
+[2014.12.06-06.06.24:784][110]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.06.24:784][110]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:06:24 PM)
+[2014.12.06-06.06.24:793][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008452s)
+[2014.12.06-06.06.24:793][110]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2014.12.06-06.06.24:794][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.009580s)
+[2014.12.06-06.06.24:825][110]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.06.24:827][110]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.06.24:830][110]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.06.24
+[2014.12.06-06.06.24:831][110]LogWorld: Bringing up level for play took: 0.003975
+[2014.12.06-06.06.24:832][110]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.435
+[2014.12.06-06.06.45:015][536]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B2E96C0
+[2014.12.06-06.06.45:997][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (board_base)
+[2014.12.06-06.06.46:012][588]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.06.48:374][689]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/models'
+[2014.12.06-06.06.48:872][713]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/textures'
+[2014.12.06-06.06.49:224][726]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/particles'
+[2014.12.06-06.06.49:600][749]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/models'
+[2014.12.06-06.06.50:135][776]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/particles'
+[2014.12.06-06.06.51:249][813]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2014.12.06-06.06.51:249][813]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2014.12.06-06.06.51:258][813]LogLinker:Warning: Asset '../../../Engine/Content/EditorMaterials/Cascade/CASC_Lights.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.06-06.06.53:861][886]LogCascade: Quitting Cascade. FXSystem=0x000000000ECAAAC0
+[2014.12.06-06.06.54:953][938]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials'
+[2014.12.06-06.06.56:628][978]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.06.56:643][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.12.06-06.06.56:747][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.12.06-06.06.56:747][978]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.12.06-06.06.56:747][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.12.06-06.06.56:747][978]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.12.06-06.06.56:767][978]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.06.56:796][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-06.06.56:836][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.12.06-06.07.00:742][ 67]MaterialEditorStats: Info Base pass shader without light map: 8 instructions
+[2014.12.06-06.07.00:742][ 67]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.07.00:742][ 67]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.12.06-06.07.04:130][199]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.07.04:155][199]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.07.06:305][246]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 9 instructions
+[2014.12.06-06.07.06:305][246]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 9 instructions
+[2014.12.06-06.07.06:305][246]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.07.06:305][246]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.12.06-06.07.07:304][269]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.07.07:316][269]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.07.09:592][323]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 9 instructions
+[2014.12.06-06.07.09:592][323]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 9 instructions
+[2014.12.06-06.07.09:592][323]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.07.09:592][323]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.12.06-06.07.09:958][333]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.07.09:978][333]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.07.11:816][372]LogMaterialEditor: Applying material dust_particle
+[2014.12.06-06.07.13:717][372]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.07.13:970][372]LogMaterial: Missing cached shader map for material dust_particle, compiling.
+[2014.12.06-06.07.14:011][372]LogMaterial: Missing cached shader map for material dust_particle, compiling.
+[2014.12.06-06.07.14:037][372]LogMaterial: 0.004561 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-06.07.31:385][819]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2014.12.06-06.07.31:386][819]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 80 instructions
+[2014.12.06-06.07.31:386][819]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.07.31:386][819]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.12.06-06.07.42:077][163]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.07.42:078][163]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:07:42 PM)
+[2014.12.06-06.07.42:086][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008349s)
+[2014.12.06-06.07.42:087][163]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2014.12.06-06.07.42:087][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.009484s)
+[2014.12.06-06.07.42:122][163]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.07.42:124][163]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.07.42:127][163]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.07.42
+[2014.12.06-06.07.42:128][163]LogWorld: Bringing up level for play took: 0.003851
+[2014.12.06-06.07.42:129][163]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 0.861
+[2014.12.06-06.08.07:017][139]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.08.07:067][139]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002367D1C0
+[2014.12.06-06.08.07:067][139]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000ECAAAC0
+[2014.12.06-06.08.08:662][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test_1" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/Levels/Test_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.06-06.08.08:781][177]LogSavePackage: Save=60.884762ms
+[2014.12.06-06.08.08:781][177]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Test_149E60C9B42F3DBDD11A8218C110AD3B5.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/Levels/Test_1.umap'
+[2014.12.06-06.08.08:823][177]LogFileHelpers: Saving map 'Test_1' took 0.365
+[2014.12.06-06.08.08:842][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/textures/HDR/Circus_Backstage_3k" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/textures/HDR/Circus_Backstage_3k.uasset" SILENT=true
+[2014.12.06-06.08.10:634][177]LogSavePackage: Save=1731.728149ms
+[2014.12.06-06.08.10:634][177]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Circus_Backstage_3k14743A0A4278464DA3165B86AD2116C4.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/textures/HDR/Circus_Backstage_3k.uasset'
+[2014.12.06-06.08.10:670][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/HDR_Background" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/HDR_Background.uasset" SILENT=true
+[2014.12.06-06.08.10:915][177]LogSavePackage: Save=225.285904ms
+[2014.12.06-06.08.10:915][177]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/HDR_BackgroundC85A28C04A99DAE6BBAC64AED0097940.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/HDR_Background.uasset'
+[2014.12.06-06.08.10:950][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/dust_particle" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/dust_particle.uasset" SILENT=true
+[2014.12.06-06.08.11:418][177]LogSavePackage: Save=448.839966ms
+[2014.12.06-06.08.11:418][177]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/dust_particleF83689554B563345DF3E1FA125E31BF2.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/dust_particle.uasset'
+[2014.12.06-06.08.43:463][842]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.08.43:463][842]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:08:43 PM)
+[2014.12.06-06.08.43:471][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008066s)
+[2014.12.06-06.08.43:472][842]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2014.12.06-06.08.43:473][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.009326s)
+[2014.12.06-06.08.43:509][842]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.08.43:511][842]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.08.43:514][842]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.08.43
+[2014.12.06-06.08.43:515][842]LogWorld: Bringing up level for play took: 0.003798
+[2014.12.06-06.08.43:516][842]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 0.247
+[2014.12.06-06.09.02:719][599]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.09.02:767][599]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000065CA840
+[2014.12.06-06.15.03:972][720]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E6EE660
+[2014.12.06-06.15.04:241][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test_1" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/Levels/Test_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.06-06.15.04:351][720]LogSavePackage: Save=61.878666ms
+[2014.12.06-06.15.04:351][720]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Test_1D8D482DB448A1A239973B5A295BF2219.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/Levels/Test_1.umap'
+[2014.12.06-06.15.04:390][720]LogFileHelpers: Saving map 'Test_1' took 0.361
+[2014.12.06-06.15.06:492][802]Cmd: QUIT_EDITOR
+[2014.12.06-06.15.06:972][802]LogExit: Preparing to exit.
+[2014.12.06-06.15.07:992][802]LogExit: Editor shut down
+[2014.12.06-06.15.07:992][802]LogExit: Transaction tracking system shut down
+[2014.12.06-06.15.07:998][802]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FC20720
+[2014.12.06-06.15.08:000][802]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002168C860
+[2014.12.06-06.15.08:000][802]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000216027A0
+[2014.12.06-06.15.08:041][802]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E2CC540
+[2014.12.06-06.15.08:041][802]LogExit: Object subsystem successfully closed.
+[2014.12.06-06.15.08:109][802]LogModuleManager: Shutting down and abandoning module DistCurveEditor (176)
+[2014.12.06-06.15.08:109][802]LogModuleManager: Shutting down and abandoning module Cascade (175)
+[2014.12.06-06.15.08:109][802]LogModuleManager: Shutting down and abandoning module MaterialEditor (174)
+[2014.12.06-06.15.08:109][802]LogModuleManager: Shutting down and abandoning module TextureEditor (173)
+[2014.12.06-06.15.08:109][802]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2014.12.06-06.15.08:109][802]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2014.12.06-06.15.08:109][802]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2014.12.06-06.15.08:109][802]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2014.12.06-06.15.08:109][802]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2014.12.06-06.15.08:109][802]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2014.12.06-06.15.08:109][802]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2014.12.06-06.15.08:110][802]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2014.12.06-06.15.08:111][802]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2014.12.06-06.15.08:112][802]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2014.12.06-06.15.08:143][802]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2014.12.06-06.15.08:143][802]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2014.12.06-06.15.08:143][802]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2014.12.06-06.15.08:143][802]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2014.12.06-06.15.08:143][802]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2014.12.06-06.15.08:143][802]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2014.12.06-06.15.08:143][802]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2014.12.06-06.15.08:143][802]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2014.12.06-06.15.08:144][802]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2014.12.06-06.15.08:144][802]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2014.12.06-06.15.08:144][802]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2014.12.06-06.15.08:144][802]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2014.12.06-06.15.08:144][802]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2014.12.06-06.15.08:144][802]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2014.12.06-06.15.08:144][802]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2014.12.06-06.15.08:144][802]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2014.12.06-06.15.08:144][802]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2014.12.06-06.15.08:144][802]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2014.12.06-06.15.08:156][802]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2014.12.06-06.15.08:157][802]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2014.12.06-06.15.08:157][802]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2014.12.06-06.15.08:157][802]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2014.12.06-06.15.08:158][802]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2014.12.06-06.15.08:158][802]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2014.12.06-06.15.08:158][802]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2014.12.06-06.15.08:158][802]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2014.12.06-06.15.08:158][802]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2014.12.06-06.15.08:158][802]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2014.12.06-06.15.08:158][802]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2014.12.06-06.15.08:158][802]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2014.12.06-06.15.08:259][802]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2014.12.06-06.15.08:259][802]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2014.12.06-06.15.08:259][802]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2014.12.06-06.15.08:275][802]LogModuleManager: Shutting down and abandoning module Media (72)
+[2014.12.06-06.15.08:276][802]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2014.12.06-06.15.08:276][802]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2014.12.06-06.15.08:276][802]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2014.12.06-06.15.08:276][802]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2014.12.06-06.15.08:276][802]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2014.12.06-06.15.08:276][802]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2014.12.06-06.15.08:276][802]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2014.12.06-06.15.08:276][802]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2014.12.06-06.15.08:276][802]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2014.12.06-06.15.08:277][802]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2014.12.06-06.15.08:277][802]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2014.12.06-06.15.08:277][802]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2014.12.06-06.15.08:277][802]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2014.12.06-06.15.08:277][802]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2014.12.06-06.15.08:284][802]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2014.12.06-06.15.08:284][802]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2014.12.06-06.15.08:284][802]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2014.12.06-06.15.08:284][802]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2014.12.06-06.15.08:284][802]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2014.12.06-06.15.08:284][802]LogModuleManager: Shutting down and abandoning module Core (51)
+[2014.12.06-06.15.08:284][802]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2014.12.06-06.15.08:284][802]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2014.12.06-06.15.08:284][802]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2014.12.06-06.15.08:284][802]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2014.12.06-06.15.08:303][802]LogDerivedDataCache: Shutdown
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2014.12.06-06.15.08:303][802]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2014.12.06-06.15.08:304][802]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.12.06-06.15.08:304][802]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2014.12.06-06.15.08:304][802]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2014.12.06-06.15.08:304][802]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2014.12.06-06.15.08:304][802]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.06-06.15.08:306][802]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.06-06.15.08:306][802]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.06-06.15.08:306][802]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.06-06.15.08:306][802]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.06-06.15.08:306][802]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.06-06.15.08:306][802]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.06-06.15.08:306][802]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.06-06.15.08:306][802]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.06-06.15.08:306][802]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.06-06.15.08:307][802]LogExit: Exiting.
+[2014.12.06-06.15.08:330][802]Log file closed, 12/06/14 00:15:08

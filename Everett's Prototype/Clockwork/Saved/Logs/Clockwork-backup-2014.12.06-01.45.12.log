@@ -1,0 +1,994 @@
+﻿Log file open, 12/06/14 00:42:50
+LogInit:Display: Running engine for game: Clockwork
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: H:/Programs/Unreal Engine/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.06-06.42.50:346][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.06-06.42.50:400][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.06-06.42.50:662][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.06-06.42.50:674][  0]LogInit: Object subsystem initialized
+[2014.12.06-06.42.50:677][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.06-06.42.50:677][  0]LogConsoleResponse:Warning:   Found in ini file 'H:/Projects/Unreal/Clockwork/Clockwork/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.06-06.42.50:677][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2014.12.06-06.42.50:677][  0]LogConsoleResponse:Warning:   Found in ini file 'H:/Projects/Unreal/Clockwork/Clockwork/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.06-06.42.50:677][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.06-06.42.50:678][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.06-06.42.50:678][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.06-06.42.50:687][  0]LogInit: Computer: EVERETT-PC
+[2014.12.06-06.42.50:687][  0]LogInit: User: Administrator
+[2014.12.06-06.42.50:687][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.12.06-06.42.50:687][  0]LogInit: High frequency timer resolution =3.527500 MHz
+[2014.12.06-06.42.50:687][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2014.12.06-06.42.50:688][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.06-06.42.50:688][  0]LogMemory: Process Physical Memory: 50.56 MB used, 50.56 MB peak
+[2014.12.06-06.42.50:688][  0]LogMemory: Process Virtual Memory: 26.55 MB used, 26.65 MB peak
+[2014.12.06-06.42.50:688][  0]LogMemory: Physical Memory: 4423.81 MB used, 8097.98 MB total
+[2014.12.06-06.42.50:688][  0]LogMemory: Virtual Memory: 268.43 MB used, 8388608.00 MB total
+[2014.12.06-06.42.51:085][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2014.12.06-06.42.51:085][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.12.06-06.42.51:085][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.06-06.42.51:132][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.06-06.42.51:179][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.06-06.42.52:097][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.06-06.42.52:293][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.06-06.43.00:294][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-06.43.01:507][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-06.43.01:689][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.06-06.43.02:246][  0]LogDerivedDataCache: Loaded boot cache 0.56s 35MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.06-06.43.02:246][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.06-06.43.02:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/Unreal/Clockwork/Clockwork/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.06-06.43.02:246][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.06-06.43.02:333][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.06-06.43.02:346][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.06-06.43.02:771][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.06-06.43.03:043][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.06-06.43.03:043][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.06-06.43.03:794][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.06-06.43.04:047][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.06-06.43.07:267][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.06-06.43.07:932][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for H:/Projects/Unreal/Clockwork/Clockwork/Binaries/Win64. Error: 0
+[2014.12.06-06.43.08:342][  0]SourceControl: Info Source control is disabled
+[2014.12.06-06.43.08:342][  0]SourceControl: Info Source control is disabled
+[2014.12.06-06.43.08:362][  0]SourceControl: Info Source control is disabled
+[2014.12.06-06.43.08:932][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.06-06.43.08:932][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2014.12.06-06.43.09:074][  0]LogEngine: Initializing Engine...
+[2014.12.06-06.43.09:350][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.06-06.43.09:491][  0]LogInit: FAudioDevice initialized.
+[2014.12.06-06.43.09:586][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.06-06.43.09:633][  0]LogDerivedDataCache: Saved boot cache 0.05s 35MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.06-06.43.09:641][  0]LogInit: Texture streaming: Enabled
+[2014.12.06-06.43.09:762][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.06-06.43.09:762][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.06-06.43.09:764][  0]LogAnalytics: SetUserId e19bf7bf8704ea0bd99cb20a9b5cc527
+[2014.12.06-06.43.09:764][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.06-06.43.09:806][  0]LogInit: Transaction tracking system initialized
+[2014.12.06-06.43.10:312][  0]BlueprintLog: New page: Editor Load
+[2014.12.06-06.43.10:442][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2014.12.06-06.43.10:443][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.06-06.43.12:065][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-06.43.12:683][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.06-06.43.13:446][  0]LogConsoleResponse:Display: 
+[2014.12.06-06.43.13:704][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.06-06.43.14:475][  0]SourceControl: Info Source control is disabled
+[2014.12.06-06.43.14:475][  0]Cmd: MAP LOAD FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/Levels/Test_1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.06-06.43.14:476][  0]LightingResults: New page: Lighting Build
+[2014.12.06-06.43.14:520][  0]MapCheck: New page: Map Check
+[2014.12.06-06.43.14:520][  0]LightingResults: New page: Lighting Build
+[2014.12.06-06.43.14:548][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000132F6700
+[2014.12.06-06.43.16:325][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.06-06.43.16:325][  0]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.43.16:328][  0]Cmd: MAP CHECKDEP
+[2014.12.06-06.43.16:328][  0]MapCheck: New page: Test_1 - Dec 5, 2014, 6:43:16 PM
+[2014.12.06-06.43.16:526][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 197.778ms to complete.
+[2014.12.06-06.43.16:526][  0]LogFileHelpers: Loading map 'Test_1' took 2.051
+[2014.12.06-06.43.16:700][  0]LogCollectionManager: Loaded 0 collections in 0.002173 seconds
+[2014.12.06-06.43.16:998][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.06-06.43.17:010][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.06-06.43.17:060][  0]LogLoad: Full Startup: 29.25 seconds (BP compile: 0.05 seconds)
+[2014.12.06-06.43.17:407][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials'
+[2014.12.06-06.43.17:638][  0]LogRenderer:Warning: Reallocating scene render targets to support 1016x896.
+[2014.12.06-06.43.19:244][  4]LogAssetRegistry: Asset discovery search completed in 8.8111 seconds
+[2014.12.06-06.43.24:322][267]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/models'
+[2014.12.06-06.43.33:917][291]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Projects/Unreal/Clockwork/Content/Models/table.fbx)
+[2014.12.06-06.43.33:947][291]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.12.06-06.43.33:947][291]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.12.06-06.43.33:947][291]LogFbx: ItemName: Model, ItemCount : 1
+[2014.12.06-06.43.33:947][291]LogFbx: ItemName: Material, ItemCount : 2
+[2014.12.06-06.43.36:384][291]LogFbx: Loading FBX Scene from ../../../../../../Projects/Unreal/Clockwork/Content/Models/table.fbx
+[2014.12.06-06.43.36:399][291]LogFbx: FBX Scene Loaded Succesfully
+[2014.12.06-06.43.36:404][291]LogFbx:Warning: Triangulating static mesh Plane
+[2014.12.06-06.43.36:502][291]LogFbx: == Initial material list:
+[2014.12.06-06.43.36:503][291]LogFbx: 0: Material
+[2014.12.06-06.43.36:503][291]LogFbx: 1: Material.001
+[2014.12.06-06.43.36:503][291]LogFbx: == After sorting:
+[2014.12.06-06.43.36:503][291]LogFbx: 0: Material
+[2014.12.06-06.43.36:503][291]LogFbx: 1: Material.001
+[2014.12.06-06.43.36:503][291]LogFbx: == Mapping table:
+[2014.12.06-06.43.36:503][291]LogFbx:   sort 0 -> 0
+[2014.12.06-06.43.36:503][291]LogFbx:   sort 1 -> 1
+[2014.12.06-06.43.36:503][291]LogStaticMesh: Building static mesh table...
+[2014.12.06-06.43.36:509][291]LogStaticMesh: Built static mesh [5.491425ms] /Game/models/table.table
+[2014.12.06-06.43.36:542][291]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.12.06-06.43.36:542][291]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/models'
+[2014.12.06-06.43.37:917][356]LogActorFactory: Actor Factory created table
+[2014.12.06-06.43.39:054][420]LogActorFactory: Actor Factory created table
+[2014.12.06-06.43.39:070][420]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.43.39:108][420]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.44.17:830][353]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials'
+[2014.12.06-06.44.18:734][388]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials/UV_tilables'
+[2014.12.06-06.44.32:896][ 94]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.44.32:933][ 94]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.06-06.44.33:046][ 94]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.06-06.44.33:046][ 94]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.12.06-06.44.33:047][ 94]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.06-06.44.33:047][ 94]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.12.06-06.44.33:065][ 94]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.44.33:110][ 94]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_2, compiling.
+[2014.12.06-06.44.33:114][ 94]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-06.44.33:126][ 94]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_8, compiling.
+[2014.12.06-06.44.33:161][ 94]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_9, compiling.
+[2014.12.06-06.44.36:730][184]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 88 instructions
+[2014.12.06-06.44.36:730][184]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.44.36:730][184]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.12.06-06.44.40:043][267]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/textures'
+[2014.12.06-06.44.44:172][368]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.44.44:177][368]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (3 / 0)
+[2014.12.06-06.44.45:372][389]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.44.45:372][389]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.44.45:372][389]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.44.46:101][404]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.44.46:107][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.12.06-06.44.46:145][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.12.06-06.44.47:211][421]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.44.47:369][423]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.44.47:369][423]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.44.47:369][423]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.44.49:751][463]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.44.49:765][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.12.06-06.44.49:879][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.12.06-06.44.51:212][480]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.44.51:212][480]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.44.51:212][480]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.44.52:207][502]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.44.52:230][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.12.06-06.44.52:365][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.12.06-06.44.52:369][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.12.06-06.44.53:267][517]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.44.53:267][517]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.44.53:267][517]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.44.54:004][530]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.44.54:018][530]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.12.06-06.44.54:055][530]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.12.06-06.44.54:059][530]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.12.06-06.44.54:062][530]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.12.06-06.44.55:330][552]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.44.55:330][552]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.44.55:330][552]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.45.02:043][710]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.45.02:087][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.12.06-06.45.03:488][734]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.12.06-06.45.03:488][734]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.45.03:488][734]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.12.06-06.45.03:700][738]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.45.03:761][738]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.12.06-06.45.04:943][760]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 43 instructions
+[2014.12.06-06.45.04:943][760]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.45.04:943][760]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.12.06-06.45.06:886][805]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.45.06:923][805]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.12.06-06.45.08:487][839]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2014.12.06-06.45.08:487][839]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.45.08:487][839]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.12.06-06.45.10:913][901]LogMaterialEditor: Applying material Dark_Wood_UV
+[2014.12.06-06.45.12:654][901]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.06-06.45.12:825][901]LogMaterial: Missing cached shader map for material Dark_Wood_UV, compiling.
+[2014.12.06-06.45.12:846][901]LogMaterial: Missing cached shader map for material Dark_Wood_UV, compiling.
+[2014.12.06-06.45.12:858][901]LogMaterial: 0.004537 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-06.45.15:966][991]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/particles'
+[2014.12.06-06.45.16:471][ 20]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials/UV_tilables'
+[2014.12.06-06.45.17:420][ 50]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.45.17:436][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.12.06-06.45.17:531][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.12.06-06.45.17:531][ 50]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.12.06-06.45.17:531][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.12.06-06.45.17:531][ 50]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.12.06-06.45.17:534][ 50]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.45.17:565][ 50]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_2, compiling.
+[2014.12.06-06.45.17:581][ 50]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-06.45.17:584][ 50]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_8, compiling.
+[2014.12.06-06.45.17:588][ 50]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_9, compiling.
+[2014.12.06-06.45.19:550][ 97]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 88 instructions
+[2014.12.06-06.45.19:550][ 97]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.45.19:550][ 97]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.12.06-06.45.22:544][184]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.45.23:899][221]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.45.23:899][221]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.45.23:899][221]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.45.24:814][253]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/textures'
+[2014.12.06-06.45.27:068][300]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.45.27:074][300]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.12.06-06.45.27:118][300]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.12.06-06.45.28:502][334]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.45.28:502][334]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.45.28:502][334]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.45.29:837][364]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.45.29:853][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.12.06-06.45.29:904][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.12.06-06.45.29:907][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.12.06-06.45.31:309][392]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.45.31:309][392]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.45.31:309][392]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.45.31:800][400]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.45.31:822][400]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.12.06-06.45.31:873][400]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.12.06-06.45.31:877][400]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.12.06-06.45.31:898][400]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.12.06-06.45.32:997][425]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.45.32:997][425]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.45.32:997][425]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.45.34:096][445]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.45.34:123][445]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.12.06-06.45.35:465][462]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.12.06-06.45.35:465][462]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.45.35:465][462]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.12.06-06.45.36:518][491]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.45.36:556][491]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.12.06-06.45.37:952][517]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 43 instructions
+[2014.12.06-06.45.37:952][517]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.45.37:953][517]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.12.06-06.45.38:695][534]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.45.38:754][534]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.12.06-06.45.40:167][561]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2014.12.06-06.45.40:167][561]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.45.40:167][561]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.12.06-06.45.41:333][589]LogMaterialEditor: Applying material Light_Wood_UV
+[2014.12.06-06.45.43:071][589]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.12.06-06.45.43:254][589]LogMaterial: Missing cached shader map for material Light_Wood_UV, compiling.
+[2014.12.06-06.45.43:291][589]LogMaterial: Missing cached shader map for material Light_Wood_UV, compiling.
+[2014.12.06-06.45.43:303][589]LogMaterial: 0.004816 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-06.45.57:427][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Projects/Unreal/Clockwork/Content/Textures/Floral_Fabric_albedo.png)
+[2014.12.06-06.45.57:827][897]0.000047 seconds to analyze Texture2D /Game/textures/Floral_Fabric_albedo.Floral_Fabric_albedo
+
+[2014.12.06-06.45.57:874][897]LogTexture:Display: Building textures: Floral_Fabric_albedo (AutoDXT)
+[2014.12.06-06.46.12:600][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Projects/Unreal/Clockwork/Content/Textures/Floral_Fabric_normal.png)
+[2014.12.06-06.46.13:018][897]0.000037 seconds to analyze Texture2D /Game/textures/Floral_Fabric_normal.Floral_Fabric_normal
+
+[2014.12.06-06.46.13:075][897]LogTexture:Display: Building textures: Floral_Fabric_normal (BC5)
+[2014.12.06-06.46.15:026][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Projects/Unreal/Clockwork/Content/Textures/Floral_Fabric_roughness.png)
+[2014.12.06-06.46.15:331][897]0.000045 seconds to analyze Texture2D /Game/textures/Floral_Fabric_roughness.Floral_Fabric_roughness
+
+[2014.12.06-06.46.15:357][897]LogTexture:Display: Building textures: Floral_Fabric_roughness (AutoDXT)
+[2014.12.06-06.46.22:034][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Projects/Unreal/Clockwork/Content/Textures/Floral_Fabric_specular.png)
+[2014.12.06-06.46.22:433][897]0.000035 seconds to analyze Texture2D /Game/textures/Floral_Fabric_specular.Floral_Fabric_specular
+
+[2014.12.06-06.46.22:467][897]LogTexture:Display: Building textures: Floral_Fabric_specular (AutoDXT)
+[2014.12.06-06.46.37:671][897]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.12.06-06.46.37:671][897]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/textures'
+[2014.12.06-06.46.37:672][897]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/textures'
+[2014.12.06-06.46.37:672][897]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/textures'
+[2014.12.06-06.46.37:673][897]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/textures'
+[2014.12.06-06.46.52:061][580]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials'
+[2014.12.06-06.46.52:337][591]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials/UV_tilables'
+[2014.12.06-06.46.54:977][696]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials/UV_tilables'
+[2014.12.06-06.46.59:218][917]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.46.59:231][917]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.12.06-06.46.59:300][917]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.12.06-06.46.59:300][917]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.12.06-06.46.59:300][917]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.12.06-06.46.59:300][917]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.12.06-06.46.59:316][917]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.47.00:802][952]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/textures'
+[2014.12.06-06.47.02:483][981]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.47.02:483][981]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.47.02:483][981]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.47.03:289][999]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.47.03:312][999]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.12.06-06.47.03:345][999]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.12.06-06.47.04:733][ 28]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.47.04:733][ 28]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.47.04:733][ 28]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.47.08:422][128]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.47.08:442][128]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.12.06-06.47.08:482][128]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.12.06-06.47.08:491][128]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.12.06-06.47.09:598][145]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.47.09:598][145]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.47.09:598][145]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.47.10:837][170]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.47.10:843][170]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.12.06-06.47.10:888][170]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.12.06-06.47.10:902][170]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.12.06-06.47.10:905][170]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.12.06-06.47.12:267][194]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.47.12:267][194]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.47.12:267][194]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.47.15:027][248]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.47.15:036][248]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.12.06-06.47.15:078][248]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.12.06-06.47.15:089][248]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.12.06-06.47.15:106][248]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.12.06-06.47.15:120][248]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.12.06-06.47.16:075][260]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.12.06-06.47.16:075][260]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.12.06-06.47.16:075][260]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.12.06-06.47.17:333][278]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.47.17:372][278]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.12.06-06.47.18:620][298]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.12.06-06.47.18:620][298]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.47.18:620][298]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.12.06-06.47.19:142][310]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.47.19:187][310]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.12.06-06.47.20:270][326]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.12.06-06.47.20:270][326]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.47.20:270][326]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.12.06-06.47.21:000][344]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.47.21:037][344]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.12.06-06.47.22:451][371]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 43 instructions
+[2014.12.06-06.47.22:451][371]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.47.22:451][371]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.12.06-06.47.23:832][407]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.47.23:871][407]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.12.06-06.47.25:256][442]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2014.12.06-06.47.25:256][442]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.47.25:256][442]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.12.06-06.47.40:673][892]LogMaterialEditor: Applying material Fabric_UV
+[2014.12.06-06.47.42:432][892]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.47.42:529][892]LogMaterial: Missing cached shader map for material Fabric_UV, compiling.
+[2014.12.06-06.47.42:563][892]LogMaterial: Missing cached shader map for material Fabric_UV, compiling.
+[2014.12.06-06.47.42:576][892]LogMaterial: 0.004617 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-06.47.45:022][945]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials/UV_tilables'
+[2014.12.06-06.47.45:892][965]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2014.12.06-06.47.45:892][965]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.47.45:892][965]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.12.06-06.48.50:046][ 87]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/textures'
+[2014.12.06-06.48.51:000][111]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/models'
+[2014.12.06-06.48.54:326][187]LogEditorFactories: Performing atomic reimport of [H:/Projects/Unreal/Clockwork/Content/Models/table.fbx]
+[2014.12.06-06.48.54:341][187]LogFbx: Loading FBX Scene from H:/Projects/Unreal/Clockwork/Content/Models/table.fbx
+[2014.12.06-06.48.54:353][187]LogFbx: FBX Scene Loaded Succesfully
+[2014.12.06-06.48.54:357][187]LogFbx:Warning: Triangulating static mesh Plane
+[2014.12.06-06.48.54:459][187]LogFbx: == Initial material list:
+[2014.12.06-06.48.54:459][187]LogFbx: 0: Material
+[2014.12.06-06.48.54:459][187]LogFbx: 1: Material.001
+[2014.12.06-06.48.54:459][187]LogFbx: == After sorting:
+[2014.12.06-06.48.54:459][187]LogFbx: 0: Material
+[2014.12.06-06.48.54:459][187]LogFbx: 1: Material.001
+[2014.12.06-06.48.54:459][187]LogFbx: == Mapping table:
+[2014.12.06-06.48.54:459][187]LogFbx:   sort 0 -> 0
+[2014.12.06-06.48.54:459][187]LogFbx:   sort 1 -> 1
+[2014.12.06-06.48.54:524][187]LogStaticMesh: Building static mesh table...
+[2014.12.06-06.48.54:530][187]LogStaticMesh: Built static mesh [6.245783ms] /Game/models/table.table
+[2014.12.06-06.48.54:561][187]LogEditorFactories: -- imported successfully
+[2014.12.06-06.49.10:919][647]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.49.10:920][647]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:49:10 PM)
+[2014.12.06-06.49.10:940][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020481s)
+[2014.12.06-06.49.10:941][647]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2014.12.06-06.49.10:942][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.021572s)
+[2014.12.06-06.49.10:992][647]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.49.10:995][647]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.49.10:998][647]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.49.10
+[2014.12.06-06.49.11:000][647]LogWorld: Bringing up level for play took: 0.005130
+[2014.12.06-06.49.11:002][647]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.197
+[2014.12.06-06.49.55:271][392]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.49.55:326][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012ACAAC0
+[2014.12.06-06.49.55:326][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020404EA0
+[2014.12.06-06.49.55:326][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E375580
+[2014.12.06-06.49.58:102][473]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2014.12.06-06.50.10:210][808]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials/UV_tilables'
+[2014.12.06-06.50.11:029][829]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials'
+[2014.12.06-06.50.12:292][851]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.12.06-06.50.12:312][851]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.12.06-06.50.12:389][851]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.12.06-06.50.12:389][851]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.12.06-06.50.12:389][851]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.12.06-06.50.12:389][851]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.12.06-06.50.12:402][851]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.12.06-06.50.12:434][851]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_2, compiling.
+[2014.12.06-06.50.12:454][851]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling.
+[2014.12.06-06.50.12:458][851]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.12.06-06.50.17:151][951]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 95 instructions
+[2014.12.06-06.50.17:151][951]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 132 instructions
+[2014.12.06-06.50.17:151][951]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.50.17:151][951]MaterialEditorStats: Info Texture samplers: 10/16
+[2014.12.06-06.50.20:737][ 39]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.06-06.50.21:875][ 39]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.12.06-06.50.21:883][ 39]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.12.06-06.50.24:510][ 95]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 95 instructions
+[2014.12.06-06.50.24:510][ 95]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 132 instructions
+[2014.12.06-06.50.24:510][ 95]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.50.24:510][ 95]MaterialEditorStats: Info Texture samplers: 10/16
+[2014.12.06-06.50.24:708][100]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.12.06-06.50.26:932][144]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 95 instructions
+[2014.12.06-06.50.26:932][144]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 132 instructions
+[2014.12.06-06.50.26:932][144]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.50.26:932][144]MaterialEditorStats: Info Texture samplers: 10/16
+[2014.12.06-06.50.31:084][279]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.12.06-06.50.31:140][279]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-06.50.33:348][322]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.12.06-06.50.33:408][322]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-06.50.34:186][335]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 95 instructions
+[2014.12.06-06.50.34:186][335]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 132 instructions
+[2014.12.06-06.50.34:186][335]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.50.34:187][335]MaterialEditorStats: Info Texture samplers: 10/16
+[2014.12.06-06.50.35:893][371]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2014.12.06-06.50.35:893][371]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 126 instructions
+[2014.12.06-06.50.35:893][371]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.50.35:893][371]MaterialEditorStats: Info Texture samplers: 9/16
+[2014.12.06-06.50.39:697][491]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.12.06-06.50.39:819][491]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-06.50.42:145][539]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 95 instructions
+[2014.12.06-06.50.42:145][539]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 132 instructions
+[2014.12.06-06.50.42:145][539]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.50.42:145][539]MaterialEditorStats: Info Texture samplers: 10/16
+[2014.12.06-06.50.45:035][623]LogMaterialEditor: Applying material Glass
+[2014.12.06-06.50.46:781][623]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.12.06-06.50.46:946][623]LogMaterial: Missing cached shader map for material Glass, compiling.
+[2014.12.06-06.50.46:983][623]LogMaterial: Missing cached shader map for material Glass, compiling.
+[2014.12.06-06.50.47:001][623]LogMaterial: 0.009547 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-06.50.53:037][751]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 128 instructions
+[2014.12.06-06.50.53:038][751]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 164 instructions
+[2014.12.06-06.50.53:038][751]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.50.53:038][751]MaterialEditorStats: Info Texture samplers: 10/16
+[2014.12.06-06.51.22:430][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere2)
+[2014.12.06-06.51.22:446][635]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.51.22:813][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere2)
+[2014.12.06-06.51.22:827][643]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.51.23:350][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere2)
+[2014.12.06-06.51.23:363][658]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.51.23:671][666]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.06-06.52.01:883][779]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.52.01:922][779]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.52.01:958][779]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.12.06-06.52.04:082][820]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.52.05:809][853]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2014.12.06-06.52.05:809][853]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.52.05:809][853]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.12.06-06.52.06:480][874]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.52.07:971][912]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2014.12.06-06.52.07:971][912]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.52.07:971][912]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.12.06-06.52.09:194][947]LogMaterialEditor: Applying material Fabric_UV
+[2014.12.06-06.52.10:923][947]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.52.11:109][947]LogMaterial: Missing cached shader map for material Fabric_UV, compiling.
+[2014.12.06-06.52.11:140][947]LogMaterial: Missing cached shader map for material Fabric_UV, compiling.
+[2014.12.06-06.52.11:153][947]LogMaterial: 0.004918 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-06.52.14:706][ 39]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 79 instructions
+[2014.12.06-06.52.14:706][ 39]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.52.14:706][ 39]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.12.06-06.52.26:915][388]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.52.26:937][388]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.52.26:966][388]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.12.06-06.52.28:421][423]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2014.12.06-06.52.28:421][423]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.52.28:421][423]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.12.06-06.52.29:201][436]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.52.30:792][464]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2014.12.06-06.52.30:792][464]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.52.30:792][464]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.12.06-06.52.34:826][558]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.52.36:037][573]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2014.12.06-06.52.36:037][573]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.52.36:037][573]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.12.06-06.52.36:923][593]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.52.38:099][609]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2014.12.06-06.52.38:099][609]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.52.38:099][609]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.12.06-06.52.39:627][644]LogMaterialEditor: Applying material Fabric_UV
+[2014.12.06-06.52.41:496][644]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.12.06-06.52.41:652][644]LogMaterial: Missing cached shader map for material Fabric_UV, compiling.
+[2014.12.06-06.52.41:673][644]LogMaterial: Missing cached shader map for material Fabric_UV, compiling.
+[2014.12.06-06.52.41:685][644]LogMaterial: 0.004551 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-06.52.44:916][725]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 79 instructions
+[2014.12.06-06.52.44:916][725]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.06-06.52.44:916][725]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.12.06-06.52.54:223][  0]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.52.54:223][  0]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:52:54 PM)
+[2014.12.06-06.52.54:231][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007649s)
+[2014.12.06-06.52.54:232][  0]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2014.12.06-06.52.54:232][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.008727s)
+[2014.12.06-06.52.54:265][  0]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.52.54:266][  0]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.52.54:270][  0]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.52.54
+[2014.12.06-06.52.54:271][  0]LogWorld: Bringing up level for play took: 0.004398
+[2014.12.06-06.52.54:272][  0]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.932
+[2014.12.06-06.53.13:944][716]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B73ADE0
+[2014.12.06-06.53.31:825][834]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/models'
+[2014.12.06-06.53.32:357][848]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/particles'
+[2014.12.06-06.53.32:952][868]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/models'
+[2014.12.06-06.53.36:791][958]LogEditorFactories: Performing atomic reimport of [H:/Projects/Unreal/Clockwork/Content/Models/table.fbx]
+[2014.12.06-06.53.36:806][958]LogFbx: Loading FBX Scene from H:/Projects/Unreal/Clockwork/Content/Models/table.fbx
+[2014.12.06-06.53.36:818][958]LogFbx: FBX Scene Loaded Succesfully
+[2014.12.06-06.53.36:823][958]LogFbx:Warning: Triangulating static mesh Plane
+[2014.12.06-06.53.36:926][958]LogFbx: == Initial material list:
+[2014.12.06-06.53.36:926][958]LogFbx: 0: Material
+[2014.12.06-06.53.36:926][958]LogFbx: 1: Material.001
+[2014.12.06-06.53.36:926][958]LogFbx: == After sorting:
+[2014.12.06-06.53.36:926][958]LogFbx: 0: Material
+[2014.12.06-06.53.36:926][958]LogFbx: 1: Material.001
+[2014.12.06-06.53.36:926][958]LogFbx: == Mapping table:
+[2014.12.06-06.53.36:926][958]LogFbx:   sort 0 -> 0
+[2014.12.06-06.53.36:926][958]LogFbx:   sort 1 -> 1
+[2014.12.06-06.53.36:990][958]LogStaticMesh: Building static mesh table...
+[2014.12.06-06.53.36:996][958]LogStaticMesh: Built static mesh [6.108859ms] /Game/models/table.table
+[2014.12.06-06.53.37:008][958]LogEditorFactories: -- imported successfully
+[2014.12.06-06.53.40:892][ 40]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.53.40:892][ 40]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:53:40 PM)
+[2014.12.06-06.53.40:900][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007656s)
+[2014.12.06-06.53.40:901][ 40]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2014.12.06-06.53.40:901][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.008682s)
+[2014.12.06-06.53.40:933][ 40]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.53.40:934][ 40]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.53.40:938][ 40]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.53.40
+[2014.12.06-06.53.40:939][ 40]LogWorld: Bringing up level for play took: 0.003806
+[2014.12.06-06.53.40:939][ 40]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.262
+[2014.12.06-06.53.45:194][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012DC6AC0
+[2014.12.06-06.54.02:298][311]LogEditorFactories: Performing atomic reimport of [H:/Projects/Unreal/Clockwork/Content/Models/table.fbx]
+[2014.12.06-06.54.02:314][311]LogFbx: Loading FBX Scene from H:/Projects/Unreal/Clockwork/Content/Models/table.fbx
+[2014.12.06-06.54.02:326][311]LogFbx: FBX Scene Loaded Succesfully
+[2014.12.06-06.54.02:330][311]LogFbx:Warning: Triangulating static mesh Plane
+[2014.12.06-06.54.02:433][311]LogFbx: == Initial material list:
+[2014.12.06-06.54.02:433][311]LogFbx: 0: Material
+[2014.12.06-06.54.02:433][311]LogFbx: 1: Material.001
+[2014.12.06-06.54.02:433][311]LogFbx: == After sorting:
+[2014.12.06-06.54.02:433][311]LogFbx: 0: Material
+[2014.12.06-06.54.02:433][311]LogFbx: 1: Material.001
+[2014.12.06-06.54.02:433][311]LogFbx: == Mapping table:
+[2014.12.06-06.54.02:433][311]LogFbx:   sort 0 -> 0
+[2014.12.06-06.54.02:433][311]LogFbx:   sort 1 -> 1
+[2014.12.06-06.54.02:510][311]LogStaticMesh: Building static mesh table...
+[2014.12.06-06.54.02:516][311]LogStaticMesh: Built static mesh [20.754076ms] /Game/models/table.table
+[2014.12.06-06.54.02:530][311]LogEditorFactories: -- imported successfully
+[2014.12.06-06.54.06:672][399]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.54.06:672][399]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:54:06 PM)
+[2014.12.06-06.54.06:680][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007427s)
+[2014.12.06-06.54.06:681][399]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2014.12.06-06.54.06:681][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.008426s)
+[2014.12.06-06.54.06:714][399]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.54.06:715][399]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.54.06:719][399]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.54.06
+[2014.12.06-06.54.06:720][399]LogWorld: Bringing up level for play took: 0.004120
+[2014.12.06-06.54.06:721][399]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.48
+[2014.12.06-06.54.15:064][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020AEFEC0
+[2014.12.06-06.54.24:663][974]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.12.06-06.54.24:728][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-06.54.25:717][988]LogMaterialEditor: Applying material Glass
+[2014.12.06-06.54.28:208][988]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.12.06-06.54.28:371][988]LogMaterial: Missing cached shader map for material Glass, compiling.
+[2014.12.06-06.54.28:412][988]LogMaterial: Missing cached shader map for material Glass, compiling.
+[2014.12.06-06.54.28:426][988]LogMaterial: 0.004887 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-06.54.34:638][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test_1" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/Levels/Test_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.12.06-06.54.34:750][ 88]LogSavePackage: Save=83.203400ms
+[2014.12.06-06.54.34:750][ 88]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Test_1_Auto14D76C97743F980EC268187A020B56ADB.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/Levels/Test_1_Auto1.umap'
+[2014.12.06-06.54.34:770][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Test_1' took 0.258
+[2014.12.06-06.54.34:770][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.258
+[2014.12.06-06.54.34:854][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/materials/Glass] ([1] browsable assets)...
+[2014.12.06-06.54.35:202][ 88]OBJ SavePackage:     Rendered thumbnail for [Material /Game/materials/Glass.Glass]
+[2014.12.06-06.54.35:202][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/materials/Glass]
+[2014.12.06-06.54.35:207][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/Glass" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/materials/Glass_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.12.06-06.54.35:748][ 88]LogSavePackage: Save=522.297668ms
+[2014.12.06-06.54.35:748][ 88]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Glass_Auto1E6DD73904A9007DCFC86959358261673.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/materials/Glass_Auto1.uasset'
+[2014.12.06-06.54.35:830][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/models/table] ([1] browsable assets)...
+[2014.12.06-06.54.35:857][ 88]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/models/table.table]
+[2014.12.06-06.54.35:857][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/models/table]
+[2014.12.06-06.54.35:861][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/models/table" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/models/table_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.12.06-06.54.36:200][ 88]LogSavePackage: Save=333.504456ms
+[2014.12.06-06.54.36:200][ 88]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/table_Auto130FDE2F74ED2E8CD931185BC9C0C2EC6.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/models/table_Auto1.uasset'
+[2014.12.06-06.54.36:238][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/materials/UV_tilables/Dark_Wood_UV] ([1] browsable assets)...
+[2014.12.06-06.54.36:260][ 88]OBJ SavePackage:     Rendered thumbnail for [Material /Game/materials/UV_tilables/Dark_Wood_UV.Dark_Wood_UV]
+[2014.12.06-06.54.36:260][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/materials/UV_tilables/Dark_Wood_UV]
+[2014.12.06-06.54.36:511][ 88]LogSavePackage: Save=225.565125ms
+[2014.12.06-06.54.36:511][ 88]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Dark_Wood_UV_Auto10D4D5A8B4957E4FAF204DC9074D632E3.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/materials/UV_tilables/Dark_Wood_UV_Auto1.uasset'
+[2014.12.06-06.54.36:548][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/materials/UV_tilables/Light_Wood_UV] ([1] browsable assets)...
+[2014.12.06-06.54.36:571][ 88]OBJ SavePackage:     Rendered thumbnail for [Material /Game/materials/UV_tilables/Light_Wood_UV.Light_Wood_UV]
+[2014.12.06-06.54.36:571][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/materials/UV_tilables/Light_Wood_UV]
+[2014.12.06-06.54.36:886][ 88]LogSavePackage: Save=289.195465ms
+[2014.12.06-06.54.36:887][ 88]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Light_Wood_UV_Auto1BF2A7C9843AB18799F7E52B72A25D474.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/materials/UV_tilables/Light_Wood_UV_Auto1.uasset'
+[2014.12.06-06.54.36:926][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/textures/Floral_Fabric_albedo] ([1] browsable assets)...
+[2014.12.06-06.54.36:945][ 88]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/textures/Floral_Fabric_albedo.Floral_Fabric_albedo]
+[2014.12.06-06.54.36:945][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/Floral_Fabric_albedo]
+[2014.12.06-06.54.40:747][ 88]LogSavePackage: Save=3794.199463ms
+[2014.12.06-06.54.40:747][ 88]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Floral_Fabric_albedo_Auto11CCFE0C14C51535F89FEC4B681FE4115.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/textures/Floral_Fabric_albedo_Auto1.uasset'
+[2014.12.06-06.54.40:807][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/textures/Floral_Fabric_normal] ([1] browsable assets)...
+[2014.12.06-06.54.40:826][ 88]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/textures/Floral_Fabric_normal.Floral_Fabric_normal]
+[2014.12.06-06.54.40:826][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/Floral_Fabric_normal]
+[2014.12.06-06.54.44:442][ 88]LogSavePackage: Save=3607.651123ms
+[2014.12.06-06.54.44:442][ 88]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Floral_Fabric_normal_Auto1DA66B77646F384F4EBDDACA562D02032.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/textures/Floral_Fabric_normal_Auto1.uasset'
+[2014.12.06-06.54.44:514][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/textures/Floral_Fabric_roughness] ([1] browsable assets)...
+[2014.12.06-06.54.44:530][ 88]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/textures/Floral_Fabric_roughness.Floral_Fabric_roughness]
+[2014.12.06-06.54.44:530][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/Floral_Fabric_roughness]
+[2014.12.06-06.54.51:103][ 88]LogSavePackage: Save=6564.680176ms
+[2014.12.06-06.54.51:103][ 88]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Floral_Fabric_roughness_Auto1F23B32DD4812BAD00048D0BBB30D5471.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/textures/Floral_Fabric_roughness_Auto1.uasset'
+[2014.12.06-06.54.51:165][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/textures/Floral_Fabric_specular] ([1] browsable assets)...
+[2014.12.06-06.54.51:181][ 88]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/textures/Floral_Fabric_specular.Floral_Fabric_specular]
+[2014.12.06-06.54.51:181][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/Floral_Fabric_specular]
+[2014.12.06-06.54.54:086][ 88]LogSavePackage: Save=2898.131592ms
+[2014.12.06-06.54.54:086][ 88]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Floral_Fabric_specular_Auto1587C24674AAE9288C4A26FAE382D19FC.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/textures/Floral_Fabric_specular_Auto1.uasset'
+[2014.12.06-06.54.54:144][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/materials/UV_tilables/Fabric_UV] ([1] browsable assets)...
+[2014.12.06-06.54.54:177][ 88]OBJ SavePackage:     Rendered thumbnail for [Material /Game/materials/UV_tilables/Fabric_UV.Fabric_UV]
+[2014.12.06-06.54.54:177][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/materials/UV_tilables/Fabric_UV]
+[2014.12.06-06.54.54:379][ 88]LogSavePackage: Save=197.550385ms
+[2014.12.06-06.54.54:379][ 88]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Fabric_UV_Auto155B7C91343D2D71143BB22A6305854DA.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Autosaves/Game/materials/UV_tilables/Fabric_UV_Auto1.uasset'
+[2014.12.06-06.54.54:384][ 88]LogFileHelpers: Auto-saving content packages took 19.614
+[2014.12.06-06.54.54:437][ 89]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 128 instructions
+[2014.12.06-06.54.54:437][ 89]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 164 instructions
+[2014.12.06-06.54.54:437][ 89]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.54.54:437][ 89]MaterialEditorStats: Info Texture samplers: 10/16
+[2014.12.06-06.54.55:364][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (table)
+[2014.12.06-06.54.55:387][101]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.55.04:679][369]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.55.04:679][369]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:55:04 PM)
+[2014.12.06-06.55.04:687][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008321s)
+[2014.12.06-06.55.04:688][369]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2014.12.06-06.55.04:688][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.009389s)
+[2014.12.06-06.55.04:721][369]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.55.04:723][369]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.55.04:726][369]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.55.04
+[2014.12.06-06.55.04:727][369]LogWorld: Bringing up level for play took: 0.003827
+[2014.12.06-06.55.04:728][369]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.474
+[2014.12.06-06.55.36:549][502]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.55.36:668][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B6822A0
+[2014.12.06-06.56.20:556][486]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.56.20:556][486]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:56:20 PM)
+[2014.12.06-06.56.20:564][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007434s)
+[2014.12.06-06.56.20:565][486]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2014.12.06-06.56.20:565][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.008554s)
+[2014.12.06-06.56.20:601][486]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.56.20:602][486]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.56.20:606][486]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.56.20
+[2014.12.06-06.56.20:607][486]LogWorld: Bringing up level for play took: 0.004280
+[2014.12.06-06.56.20:608][486]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.596
+[2014.12.06-06.56.24:217][610]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.56.24:340][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002342C2C0
+[2014.12.06-06.56.27:721][718]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials/UV_tilables'
+[2014.12.06-06.56.28:416][740]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials'
+[2014.12.06-06.56.29:394][758]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.12.06-06.56.29:407][758]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.12.06-06.56.29:492][758]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.12.06-06.56.29:492][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2014.12.06-06.56.29:492][758]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.12.06-06.56.29:492][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2014.12.06-06.56.29:517][758]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.12.06-06.56.29:553][758]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-06.56.29:556][758]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.12.06-06.56.33:110][829]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 9 instructions
+[2014.12.06-06.56.33:110][829]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 9 instructions
+[2014.12.06-06.56.33:110][829]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.56.33:110][829]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.12.06-06.56.33:634][846]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.12.06-06.56.33:694][846]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.12.06-06.56.35:741][886]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 9 instructions
+[2014.12.06-06.56.35:741][886]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 9 instructions
+[2014.12.06-06.56.35:741][886]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.06-06.56.35:741][886]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.12.06-06.56.36:108][894]LogMaterialEditor: Applying material dust_particle
+[2014.12.06-06.56.37:849][894]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.12.06-06.56.38:007][894]LogMaterial: Missing cached shader map for material dust_particle, compiling.
+[2014.12.06-06.56.38:069][894]LogMaterial: Missing cached shader map for material dust_particle, compiling.
+[2014.12.06-06.56.38:096][894]LogMaterial: 0.005479 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.06-06.57.31:345][210]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.57.31:345][210]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:57:31 PM)
+[2014.12.06-06.57.31:354][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007944s)
+[2014.12.06-06.57.31:355][210]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2014.12.06-06.57.31:355][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.009052s)
+[2014.12.06-06.57.31:387][210]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.57.31:388][210]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.57.31:392][210]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.57.31
+[2014.12.06-06.57.31:392][210]LogWorld: Bringing up level for play took: 0.003814
+[2014.12.06-06.57.31:393][210]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 0.188
+[2014.12.06-06.57.37:681][667]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000153A6FC0
+[2014.12.06-06.57.37:723][668]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E8A5440
+[2014.12.06-06.57.37:723][668]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000235CEFC0
+[2014.12.06-06.57.37:723][668]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000131B2E80
+[2014.12.06-06.57.48:258][206]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.57.48:258][206]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:57:48 PM)
+[2014.12.06-06.57.48:270][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010782s)
+[2014.12.06-06.57.48:271][206]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2014.12.06-06.57.48:271][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.011986s)
+[2014.12.06-06.57.48:309][206]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.57.48:311][206]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.57.48:316][206]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.57.48
+[2014.12.06-06.57.48:316][206]LogWorld: Bringing up level for play took: 0.005006
+[2014.12.06-06.57.48:318][206]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.888
+[2014.12.06-06.57.59:298][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B682160
+[2014.12.06-06.57.59:913][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (table)
+[2014.12.06-06.57.59:928][ 48]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.58.04:427][253]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.58.04:428][253]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:58:04 PM)
+[2014.12.06-06.58.04:437][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009197s)
+[2014.12.06-06.58.04:438][253]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2014.12.06-06.58.04:438][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.010366s)
+[2014.12.06-06.58.04:472][253]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.58.04:474][253]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.58.04:479][253]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.58.04
+[2014.12.06-06.58.04:480][253]LogWorld: Bringing up level for play took: 0.005249
+[2014.12.06-06.58.04:481][253]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.725
+[2014.12.06-06.58.08:001][499]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.58.08:101][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CECBA60
+[2014.12.06-06.58.10:297][627]Cmd: TRANSACTION UNDO
+[2014.12.06-06.58.10:297][627]LogEditorTransaction: Undo Scale Actors
+[2014.12.06-06.58.10:311][627]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.58.16:510][898]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.58.16:510][898]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:58:16 PM)
+[2014.12.06-06.58.16:519][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008577s)
+[2014.12.06-06.58.16:520][898]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2014.12.06-06.58.16:520][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.009785s)
+[2014.12.06-06.58.16:555][898]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.58.16:556][898]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.58.16:560][898]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.58.16
+[2014.12.06-06.58.16:560][898]LogWorld: Bringing up level for play took: 0.003741
+[2014.12.06-06.58.16:561][898]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.644
+[2014.12.06-06.58.18:255][ 17]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.58.18:354][ 18]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E5CD1C0
+[2014.12.06-06.58.22:980][249]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.58.22:980][249]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:58:22 PM)
+[2014.12.06-06.58.22:988][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007500s)
+[2014.12.06-06.58.22:989][249]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2014.12.06-06.58.22:989][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.008498s)
+[2014.12.06-06.58.23:024][249]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.58.23:025][249]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.58.23:029][249]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.58.23
+[2014.12.06-06.58.23:029][249]LogWorld: Bringing up level for play took: 0.003785
+[2014.12.06-06.58.23:030][249]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.176
+[2014.12.06-06.58.32:430][927]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.58.32:530][928]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B681300
+[2014.12.06-06.58.36:780][137]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-06.58.36:780][137]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 6:58:36 PM)
+[2014.12.06-06.58.36:788][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007868s)
+[2014.12.06-06.58.36:789][137]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2014.12.06-06.58.36:789][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.008982s)
+[2014.12.06-06.58.36:824][137]LogWorld: Game class is 'GameMode'
+[2014.12.06-06.58.36:825][137]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-06.58.36:830][137]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-00.58.36
+[2014.12.06-06.58.36:831][137]LogWorld: Bringing up level for play took: 0.004996
+[2014.12.06-06.58.36:832][137]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 -0.374
+[2014.12.06-06.58.55:844][536]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.58.55:941][537]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B738D60
+[2014.12.06-06.58.58:031][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (space_test56)
+[2014.12.06-06.58.58:045][635]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-06.59.02:674][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test_1" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/Levels/Test_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.06-06.59.02:785][868]LogSavePackage: Save=60.642097ms
+[2014.12.06-06.59.02:785][868]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Test_198F049A44F33DB4A83E22EAAF8DCC341.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/Levels/Test_1.umap'
+[2014.12.06-06.59.02:833][868]LogFileHelpers: Saving map 'Test_1' took 0.474
+[2014.12.06-06.59.02:835][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/Glass" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/Glass.uasset" SILENT=true
+[2014.12.06-06.59.02:862][868]LogSavePackage: Save=7.839263ms
+[2014.12.06-06.59.02:862][868]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/GlassA196832B46F51A394AD076BA7EAA5898.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/Glass.uasset'
+[2014.12.06-06.59.02:895][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/dust_particle" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/dust_particle.uasset" SILENT=true
+[2014.12.06-06.59.03:336][868]LogSavePackage: Save=420.715790ms
+[2014.12.06-06.59.03:336][868]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/dust_particle3761A1DC43268B967028EE9FCA25848E.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/dust_particle.uasset'
+[2014.12.06-06.59.03:365][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/models/table" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/models/table.uasset" SILENT=true
+[2014.12.06-06.59.03:644][868]LogSavePackage: Save=276.193634ms
+[2014.12.06-06.59.03:644][868]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/tableFD36931A441134B101EB5ABCEE03CB05.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/models/table.uasset'
+[2014.12.06-06.59.03:652][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/UV_tilables/Dark_Wood_UV" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/UV_tilables/Dark_Wood_UV.uasset" SILENT=true
+[2014.12.06-06.59.03:676][868]LogSavePackage: Save=5.370092ms
+[2014.12.06-06.59.03:676][868]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Dark_Wood_UV360DDD544640FA3025C6C792F0A2EA50.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/UV_tilables/Dark_Wood_UV.uasset'
+[2014.12.06-06.59.03:684][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/UV_tilables/Light_Wood_UV" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/UV_tilables/Light_Wood_UV.uasset" SILENT=true
+[2014.12.06-06.59.03:708][868]LogSavePackage: Save=5.101630ms
+[2014.12.06-06.59.03:708][868]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Light_Wood_UV0D6A60D1448FFB7C5569CA8E934457F7.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/UV_tilables/Light_Wood_UV.uasset'
+[2014.12.06-06.59.03:732][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/textures/Floral_Fabric_albedo" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/textures/Floral_Fabric_albedo.uasset" SILENT=true
+[2014.12.06-06.59.04:509][868]LogSavePackage: Save=774.745300ms
+[2014.12.06-06.59.04:509][868]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Floral_Fabric_albedoFCD822924E521F3BB3C4A1B6E0AEBB52.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/textures/Floral_Fabric_albedo.uasset'
+[2014.12.06-06.59.04:533][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/textures/Floral_Fabric_normal" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/textures/Floral_Fabric_normal.uasset" SILENT=true
+[2014.12.06-06.59.05:514][868]LogSavePackage: Save=979.312561ms
+[2014.12.06-06.59.05:514][868]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Floral_Fabric_normal28D6A00A4E019FD9F726C0891376EB4B.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/textures/Floral_Fabric_normal.uasset'
+[2014.12.06-06.59.05:537][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/textures/Floral_Fabric_roughness" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/textures/Floral_Fabric_roughness.uasset" SILENT=true
+[2014.12.06-06.59.06:094][868]LogSavePackage: Save=554.860107ms
+[2014.12.06-06.59.06:094][868]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Floral_Fabric_roughnessAEE3F29F46597C6B20B328B45D274190.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/textures/Floral_Fabric_roughness.uasset'
+[2014.12.06-06.59.06:119][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/textures/Floral_Fabric_specular" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/textures/Floral_Fabric_specular.uasset" SILENT=true
+[2014.12.06-06.59.06:999][868]LogSavePackage: Save=878.194458ms
+[2014.12.06-06.59.06:999][868]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Floral_Fabric_specular2BCFE6E8407AF78FC90448848D2F7A0E.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/textures/Floral_Fabric_specular.uasset'
+[2014.12.06-06.59.07:028][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/UV_tilables/Fabric_UV" FILE="../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/UV_tilables/Fabric_UV.uasset" SILENT=true
+[2014.12.06-06.59.07:165][868]LogSavePackage: Save=134.775620ms
+[2014.12.06-06.59.07:165][868]LogSavePackage: Moving '../../../../../../Projects/Unreal/Clockwork/Clockwork/Saved/Fabric_UV855BFEFC47C41A0D8B166B876B8D58FE.tmp' to '../../../../../../Projects/Unreal/Clockwork/Clockwork/Content/materials/UV_tilables/Fabric_UV.uasset'
+[2014.12.06-07.03.29:339][147]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-07.03.29:339][147]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 7:03:29 PM)
+[2014.12.06-07.03.29:348][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008520s)
+[2014.12.06-07.03.29:349][147]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2014.12.06-07.03.29:349][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.009625s)
+[2014.12.06-07.03.29:382][147]LogWorld: Game class is 'GameMode'
+[2014.12.06-07.03.29:384][147]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-07.03.29:388][147]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-01.03.29
+[2014.12.06-07.03.29:388][147]LogWorld: Bringing up level for play took: 0.004199
+[2014.12.06-07.03.29:389][147]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 0.178
+[2014.12.06-07.03.35:010][563]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-07.03.35:110][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002342E020
+[2014.12.06-07.03.36:730][650]LogRenderer:Warning: Reallocating scene render targets to support 1504x896.
+[2014.12.06-07.03.37:716][690]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.06-07.03.37:716][690]PIE: New page: PIE session: Test_1 (Dec 5, 2014, 7:03:37 PM)
+[2014.12.06-07.03.37:724][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007271s)
+[2014.12.06-07.03.37:725][690]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2014.12.06-07.03.37:725][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test_1.Test_1 to /Game/Levels/UEDPIE_0_Test_1.Test_1 (0.008439s)
+[2014.12.06-07.03.37:760][690]LogWorld: Game class is 'GameMode'
+[2014.12.06-07.03.37:762][690]LogAIModule: Creating AISystem for world Test_1
+[2014.12.06-07.03.37:766][690]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Test_1.Test_1 up for play (max tick rate 0) at 2014.12.06-01.03.37
+[2014.12.06-07.03.37:767][690]LogWorld: Bringing up level for play took: 0.004754
+[2014.12.06-07.03.37:767][690]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Test_1 0.555
+[2014.12.06-07.03.57:023][784]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.06-07.03.57:121][785]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000235CEF20
+[2014.12.06-07.04.05:244][200]Cmd: QUIT_EDITOR
+[2014.12.06-07.04.05:700][200]LogExit: Preparing to exit.
+[2014.12.06-07.04.06:710][200]LogExit: Editor shut down
+[2014.12.06-07.04.06:711][200]LogExit: Transaction tracking system shut down
+[2014.12.06-07.04.06:719][200]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F1FBD80
+[2014.12.06-07.04.06:775][200]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E7E4D60
+[2014.12.06-07.04.06:775][200]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020406F20
+[2014.12.06-07.04.06:775][200]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000204D3420
+[2014.12.06-07.04.06:775][200]LogExit: Object subsystem successfully closed.
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module MaterialEditor (173)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2014.12.06-07.04.06:858][200]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2014.12.06-07.04.06:859][200]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2014.12.06-07.04.06:860][200]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2014.12.06-07.04.06:927][200]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2014.12.06-07.04.06:928][200]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2014.12.06-07.04.07:021][200]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2014.12.06-07.04.07:022][200]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2014.12.06-07.04.07:022][200]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2014.12.06-07.04.07:022][200]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2014.12.06-07.04.07:024][200]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2014.12.06-07.04.07:024][200]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2014.12.06-07.04.07:024][200]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2014.12.06-07.04.07:024][200]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2014.12.06-07.04.07:024][200]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2014.12.06-07.04.07:024][200]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2014.12.06-07.04.07:024][200]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2014.12.06-07.04.07:024][200]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2014.12.06-07.04.07:124][200]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2014.12.06-07.04.07:124][200]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2014.12.06-07.04.07:124][200]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2014.12.06-07.04.07:127][200]LogModuleManager: Shutting down and abandoning module Media (72)
+[2014.12.06-07.04.07:127][200]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2014.12.06-07.04.07:127][200]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2014.12.06-07.04.07:127][200]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2014.12.06-07.04.07:127][200]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2014.12.06-07.04.07:128][200]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2014.12.06-07.04.07:128][200]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2014.12.06-07.04.07:128][200]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2014.12.06-07.04.07:128][200]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2014.12.06-07.04.07:128][200]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2014.12.06-07.04.07:128][200]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2014.12.06-07.04.07:128][200]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2014.12.06-07.04.07:128][200]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2014.12.06-07.04.07:128][200]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2014.12.06-07.04.07:128][200]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2014.12.06-07.04.07:135][200]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2014.12.06-07.04.07:135][200]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2014.12.06-07.04.07:135][200]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2014.12.06-07.04.07:135][200]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2014.12.06-07.04.07:135][200]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2014.12.06-07.04.07:135][200]LogModuleManager: Shutting down and abandoning module Core (51)
+[2014.12.06-07.04.07:135][200]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2014.12.06-07.04.07:135][200]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2014.12.06-07.04.07:135][200]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2014.12.06-07.04.07:135][200]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2014.12.06-07.04.07:160][200]LogDerivedDataCache: Shutdown
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2014.12.06-07.04.07:160][200]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2014.12.06-07.04.07:161][200]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.12.06-07.04.07:161][200]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2014.12.06-07.04.07:161][200]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2014.12.06-07.04.07:161][200]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2014.12.06-07.04.07:161][200]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.06-07.04.07:163][200]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.06-07.04.07:163][200]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.06-07.04.07:163][200]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.06-07.04.07:163][200]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.06-07.04.07:163][200]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.06-07.04.07:163][200]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.06-07.04.07:163][200]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.06-07.04.07:163][200]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.06-07.04.07:163][200]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.06-07.04.07:164][200]LogExit: Exiting.
+[2014.12.06-07.04.07:190][200]Log file closed, 12/06/14 01:04:07
